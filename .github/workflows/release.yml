@@ -1,0 +1,141 @@
+name: Create Release
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+jobs:
+  create-release:
+    name: Create Release
+    if: github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'release')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine Next Version
+        id: version
+        run: |
+          # Get latest release tag (if any)
+          latest_tag=$(gh release view --json tagName --jq .tagName || echo "v0.0.0")
+          
+          # Extract major, minor, patch numbers
+          if [[ $latest_tag =~ v([0-9]+)\.([0-9]+)\.([0-9]+) ]]; then
+            major="${BASH_REMATCH[1]}"
+            minor="${BASH_REMATCH[2]}"
+            patch="${BASH_REMATCH[3]}"
+          else
+            major=0
+            minor=0
+            patch=0
+          fi
+          
+          # Determine version bump type from PR labels
+          if contains(github.event.pull_request.labels.*.name, 'major'); then
+            major=$((major + 1))
+            minor=0
+            patch=0
+          elif contains(github.event.pull_request.labels.*.name, 'minor'); then
+            minor=$((minor + 1))
+            patch=0
+          else
+            # Default to patch bump if no major/minor label
+            patch=$((patch + 1))
+          fi
+          
+          new_version="v${major}.${minor}.${patch}"
+          echo "New version will be: $new_version"
+          echo "version=$new_version" >> $GITHUB_OUTPUT
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Release Notes
+        id: release-notes
+        run: |
+          # Get PR description
+          DESCRIPTION="${{ github.event.pull_request.body }}"
+          
+          # Get list of changes since last release
+          CHANGES=$(gh pr list \
+            --base main \
+            --state merged \
+            --json title,number,mergedAt,labels \
+            --search "merged:>=$(gh release view --json publishedAt --jq .publishedAt || echo "v0.0.0")")
+          
+          # Extract PR description and format it
+          DESCRIPTION=$(echo "$DESCRIPTION" | sed '/<!--.*-->/d')
+          
+          # Format the release notes
+          NOTES="## What's Changed
+          
+          ${DESCRIPTION}
+          
+          **Full Changelog**: https://github.com/${{ github.repository }}/compare/${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }}
+          
+          ## Installation
+          
+          Add to your \`Package.swift\`:
+          
+          \`\`\`swift
+          dependencies: [
+              .package(url: \"https://github.com/vamsii777/SwiftTZ.git\", from: \"${{ steps.version.outputs.version }}\")
+          ]
+          \`\`\`
+          "
+          
+          # Save to file (handles multiline better than environment variables)
+          echo "$NOTES" > release_notes.md
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: Release ${{ steps.version.outputs.version }}
+          body_path: release_notes.md
+          draft: false
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update Documentation
+        if: success()
+        run: |
+          # Add any documentation update steps here
+          echo "Documentation updated for version ${{ steps.version.outputs.version }}"
+
+      - name: Notify on Failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ Failed to create release. Please check the workflow logs for details.'
+            })
+
+      - name: Update README.md Version
+        if: success()
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          VERSION_NO_V="${VERSION#v}"  # Remove 'v' prefix
+          
+          # Update version in README.md
+          sed -i.bak 's/\.package(url: "https:\/\/github\.com\/vamsii777\/SwiftTZ\.git", from: "[0-9]*\.[0-9]*\.[0-9]*")/\.package(url: "https:\/\/github\.com\/vamsii777\/SwiftTZ\.git", from: "'$VERSION_NO_V'")/' README.md
+          rm README.md.bak
+
+      - name: Commit Version Updates
+        if: success()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add Package.swift README.md
+          git commit -m "chore: bump version to ${{ steps.version.outputs.version }}"
+          git push
