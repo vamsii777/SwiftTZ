@@ -120,3 +120,22 @@ jobs:
               repo: context.repo.repo,
               body: '❌ Failed to create release. Please check the workflow logs for details.'
             })
+
+      - name: Update README.md Version
+        if: success()
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          VERSION_NO_V="${VERSION#v}"  # Remove 'v' prefix
+          
+          # Update version in README.md
+          sed -i.bak 's/\.package(url: "https:\/\/github\.com\/vamsii777\/SwiftTZ\.git", from: "[0-9]*\.[0-9]*\.[0-9]*")/\.package(url: "https:\/\/github\.com\/vamsii777\/SwiftTZ\.git", from: "'$VERSION_NO_V'")/' README.md
+          rm README.md.bak
+
+      - name: Commit Version Updates
+        if: success()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add Package.swift README.md
+          git commit -m "chore: bump version to ${{ steps.version.outputs.version }}"
+          git push
