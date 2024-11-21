@@ -4,591 +4,7 @@ import "name.pkl"
 
 timezone = new {
     new {
-      name = "America/Argentina/Rio_Gallegos"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Nicosia"
-      type = "zone1970"
-    }
-    new {
-      name = "Europe/Volgograd"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Magadan"
-      type = "zone1970"
-    }
-    new {
-      name = "America/North_Dakota/Center"
-      type = "zone1970"
-    }
-    new {
-      name = "Africa/Abidjan"
-      type = "now"
-    }
-    new {
-      name = "Asia/Beirut"
-      type = "now"
-    }
-    new {
-      name = "Asia/Jayapura"
-      type = "now"
-    }
-    new {
-      name = "America/Detroit"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Indiana/Vincennes"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Kabul"
-      type = "now"
-    }
-    new {
-      name = "Antarctica/Vostok"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Fortaleza"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Honolulu"
-      type = "now"
-    }
-    new {
-      name = "Asia/Omsk"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Kentucky/Monticello"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Bangkok"
-      type = "now"
-    }
-    new {
-      name = "America/Inuvik"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Argentina/Catamarca"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Bahia_Banderas"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Rankin_Inlet"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Iqaluit"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Hebron"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Toronto"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Ulaanbaatar"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Fort_Nelson"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Lima"
-      type = "now"
-    }
-    new {
-      name = "Pacific/Guam"
-      type = "now"
-    }
-    new {
-      name = "Europe/Saratov"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Kanton"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Jakarta"
-      type = "now"
-    }
-    new {
-      name = "Pacific/Bougainville"
-      type = "now"
-    }
-    new {
-      name = "Atlantic/Canary"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Pontianak"
-      type = "zone1970"
-    }
-    new {
-      name = "Africa/Ceuta"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Singapore"
-      type = "now"
-    }
-    new {
-      name = "America/North_Dakota/Beulah"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Metlakatla"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Gaza"
-      type = "now"
-    }
-    new {
-      name = "Asia/Hong_Kong"
-      type = "now"
-    }
-    new {
-      name = "America/Guayaquil"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Havana"
-      type = "now"
-    }
-    new {
-      name = "Asia/Yekaterinburg"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Yakutsk"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Santarem"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Easter"
-      type = "now"
-    }
-    new {
-      name = "America/Punta_Arenas"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Argentina/San_Luis"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Indiana/Vevay"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Juneau"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Cambridge_Bay"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Dawson"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Argentina/Ushuaia"
-      type = "zone1970"
-    }
-    new {
-      name = "America/St_Johns"
-      type = "now"
-    }
-    new {
-      name = "Europe/Paris"
-      type = "now"
-    }
-    new {
-      name = "America/Whitehorse"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Tarawa"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Novosibirsk"
-      type = "zone1970"
-    }
-    new {
-      name = "America/New_York"
-      type = "now"
-    }
-    new {
-      name = "Asia/Dhaka"
-      type = "now"
-    }
-    new {
-      name = "Europe/Istanbul"
-      type = "now"
-    }
-    new {
-      name = "America/Tijuana"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Argentina/Jujuy"
-      type = "zone1970"
-    }
-    new {
-      name = "Europe/London"
-      type = "now"
-    }
-    new {
-      name = "Asia/Chita"
-      type = "now"
-    }
-    new {
-      name = "America/Edmonton"
-      type = "zone1970"
-    }
-    new {
-      name = "Antarctica/Troll"
-      type = "now"
-    }
-    new {
-      name = "Indian/Maldives"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Krasnoyarsk"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Mexico_City"
-      type = "now"
-    }
-    new {
-      name = "America/Winnipeg"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Almaty"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Kathmandu"
-      type = "now"
-    }
-    new {
-      name = "Pacific/Auckland"
-      type = "now"
-    }
-    new {
-      name = "Asia/Makassar"
-      type = "now"
-    }
-    new {
-      name = "Pacific/Kwajalein"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Indiana/Marengo"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Chatham"
-      type = "now"
-    }
-    new {
-      name = "America/Yakutat"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Denver"
-      type = "now"
-    }
-    new {
-      name = "Asia/Manila"
-      type = "now"
-    }
-    new {
-      name = "Asia/Tokyo"
-      type = "now"
-    }
-    new {
-      name = "Asia/Samarkand"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Matamoros"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Karachi"
-      type = "now"
-    }
-    new {
-      name = "Europe/Chisinau"
-      type = "now"
-    }
-    new {
-      name = "Asia/Novokuznetsk"
-      type = "zone1970"
-    }
-    new {
-      name = "Australia/Hobart"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Tahiti"
-      type = "now"
-    }
-    new {
-      name = "America/Boise"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Guadalcanal"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Hermosillo"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Scoresbysund"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Colombo"
-      type = "now"
-    }
-    new {
-      name = "America/Ojinaga"
-      type = "zone1970"
-    }
-    new {
-      name = "Australia/Lindeman"
-      type = "zone1970"
-    }
-    new {
-      name = "Antarctica/Davis"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Maceio"
-      type = "zone1970"
-    }
-    new {
-      name = "America/North_Dakota/New_Salem"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Rio_Branco"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Santo_Domingo"
-      type = "now"
-    }
-    new {
-      name = "America/Argentina/La_Rioja"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Menominee"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Kolkata"
-      type = "now"
-    }
-    new {
-      name = "Australia/Lord_Howe"
-      type = "now"
-    }
-    new {
-      name = "America/Noronha"
-      type = "now"
-    }
-    new {
-      name = "America/Argentina/Salta"
-      type = "zone1970"
-    }
-    new {
-      name = "Antarctica/Rothera"
-      type = "zone1970"
-    }
-    new {
-      name = "Atlantic/Cape_Verde"
-      type = "now"
-    }
-    new {
-      name = "America/Resolute"
-      type = "zone1970"
-    }
-    new {
-      name = "Australia/Sydney"
-      type = "now"
-    }
-    new {
-      name = "Australia/Adelaide"
-      type = "now"
-    }
-    new {
-      name = "Antarctica/Palmer"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Urumqi"
-      type = "zone1970"
-    }
-    new {
-      name = "Europe/Simferopol"
-      type = "zone1970"
-    }
-    new {
-      name = "Australia/Eucla"
-      type = "now"
-    }
-    new {
-      name = "Asia/Qyzylorda"
-      type = "zone1970"
-    }
-    new {
-      name = "Europe/Madrid"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Yangon"
-      type = "now"
-    }
-    new {
-      name = "America/Regina"
-      type = "zone1970"
-    }
-    new {
-      name = "Europe/Samara"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Barnaul"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Goose_Bay"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Campo_Grande"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Niue"
-      type = "now"
-    }
-    new {
-      name = "America/Cuiaba"
-      type = "zone1970"
-    }
-    new {
-      name = "Europe/Ulyanovsk"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Famagusta"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Tashkent"
-      type = "now"
-    }
-    new {
-      name = "America/Manaus"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Mazatlan"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Danmarkshavn"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Adak"
-      type = "now"
-    }
-    new {
       name = "Europe/Lisbon"
-      type = "now"
-    }
-    new {
-      name = "Atlantic/Madeira"
-      type = "zone1970"
-    }
-    new {
-      name = "Australia/Darwin"
-      type = "now"
-    }
-    new {
-      name = "Antarctica/Mawson"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Jamaica"
-      type = "now"
-    }
-    new {
-      name = "Antarctica/Casey"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Swift_Current"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Anadyr"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Argentina/Cordoba"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Aqtobe"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Aqtau"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Pago_Pago"
-      type = "now"
-    }
-    new {
-      name = "America/Eirunepe"
-      type = "zone1970"
-    }
-    new {
-      name = "Africa/Tripoli"
       type = "now"
     }
     new {
@@ -596,35 +12,67 @@ timezone = new {
       type = "now"
     }
     new {
-      name = "Pacific/Pitcairn"
+      name = "America/Winnipeg"
+      type = "zone1970"
+    }
+    new {
+      name = "Australia/Eucla"
       type = "now"
     }
     new {
-      name = "Asia/Atyrau"
+      name = "Asia/Nicosia"
       type = "zone1970"
     }
     new {
-      name = "America/Panama"
+      name = "America/Argentina/Rio_Gallegos"
       type = "zone1970"
     }
     new {
-      name = "America/Phoenix"
+      name = "America/Puerto_Rico"
+      type = "zone1970"
+    }
+    new {
+      name = "Antarctica/Davis"
+      type = "zone1970"
+    }
+    new {
+      name = "Antarctica/Casey"
+      type = "zone1970"
+    }
+    new {
+      name = "Europe/Berlin"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Juneau"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Mexico_City"
       type = "now"
     }
     new {
-      name = "America/Belem"
+      name = "America/Argentina/Catamarca"
       type = "zone1970"
     }
     new {
-      name = "America/Bahia"
+      name = "America/Swift_Current"
       type = "zone1970"
     }
     new {
-      name = "Asia/Tomsk"
+      name = "Asia/Beirut"
+      type = "now"
+    }
+    new {
+      name = "Antarctica/Macquarie"
       type = "zone1970"
     }
     new {
-      name = "Asia/Ust-Nera"
+      name = "America/Indiana/Vincennes"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Iqaluit"
       type = "zone1970"
     }
     new {
@@ -632,7 +80,595 @@ timezone = new {
       type = "zone1970"
     }
     new {
+      name = "Pacific/Tahiti"
+      type = "now"
+    }
+    new {
+      name = "America/Glace_Bay"
+      type = "zone1970"
+    }
+    new {
+      name = "Australia/Broken_Hill"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Nome"
+      type = "zone1970"
+    }
+    new {
+      name = "Atlantic/Canary"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Caracas"
+      type = "now"
+    }
+    new {
+      name = "America/Denver"
+      type = "now"
+    }
+    new {
+      name = "Asia/Hebron"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Indiana/Knox"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Bangkok"
+      type = "now"
+    }
+    new {
+      name = "America/Phoenix"
+      type = "now"
+    }
+    new {
+      name = "America/Goose_Bay"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Makassar"
+      type = "now"
+    }
+    new {
+      name = "Asia/Ho_Chi_Minh"
+      type = "zone1970"
+    }
+    new {
+      name = "Africa/Johannesburg"
+      type = "now"
+    }
+    new {
+      name = "Europe/Chisinau"
+      type = "now"
+    }
+    new {
+      name = "Asia/Srednekolymsk"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Vancouver"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Santiago"
+      type = "now"
+    }
+    new {
+      name = "America/Argentina/San_Juan"
+      type = "zone1970"
+    }
+    new {
+      name = "Europe/Saratov"
+      type = "zone1970"
+    }
+    new {
+      name = "Africa/Ceuta"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Nuuk"
+      type = "now"
+    }
+    new {
+      name = "Asia/Manila"
+      type = "now"
+    }
+    new {
+      name = "Europe/Paris"
+      type = "now"
+    }
+    new {
+      name = "Asia/Krasnoyarsk"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Chicago"
+      type = "now"
+    }
+    new {
+      name = "Australia/Sydney"
+      type = "now"
+    }
+    new {
+      name = "Australia/Hobart"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Gaza"
+      type = "now"
+    }
+    new {
+      name = "Europe/Zurich"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Dawson_Creek"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Qostanay"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Dhaka"
+      type = "now"
+    }
+    new {
+      name = "America/Scoresbysund"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Tijuana"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Yakutat"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Sao_Paulo"
+      type = "now"
+    }
+    new {
+      name = "Pacific/Pitcairn"
+      type = "now"
+    }
+    new {
+      name = "Pacific/Honolulu"
+      type = "now"
+    }
+    new {
+      name = "America/Bahia_Banderas"
+      type = "zone1970"
+    }
+    new {
+      name = "Australia/Lord_Howe"
+      type = "now"
+    }
+    new {
+      name = "Pacific/Guadalcanal"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Matamoros"
+      type = "zone1970"
+    }
+    new {
       name = "Europe/Kyiv"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Hermosillo"
+      type = "zone1970"
+    }
+    new {
+      name = "Europe/Dublin"
+      type = "now"
+    }
+    new {
+      name = "Asia/Barnaul"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Sitka"
+      type = "zone1970"
+    }
+    new {
+      name = "America/St_Johns"
+      type = "now"
+    }
+    new {
+      name = "America/Belem"
+      type = "zone1970"
+    }
+    new {
+      name = "Atlantic/Azores"
+      type = "now"
+    }
+    new {
+      name = "America/Adak"
+      type = "now"
+    }
+    new {
+      name = "Antarctica/Mawson"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Los_Angeles"
+      type = "now"
+    }
+    new {
+      name = "Europe/Simferopol"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Anchorage"
+      type = "now"
+    }
+    new {
+      name = "America/North_Dakota/Beulah"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Kathmandu"
+      type = "now"
+    }
+    new {
+      name = "America/Cuiaba"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Santarem"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Jamaica"
+      type = "now"
+    }
+    new {
+      name = "Pacific/Chatham"
+      type = "now"
+    }
+    new {
+      name = "Asia/Tomsk"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Recife"
+      type = "zone1970"
+    }
+    new {
+      name = "Australia/Brisbane"
+      type = "now"
+    }
+    new {
+      name = "Pacific/Bougainville"
+      type = "now"
+    }
+    new {
+      name = "America/Rankin_Inlet"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Atyrau"
+      type = "zone1970"
+    }
+    new {
+      name = "Antarctica/Vostok"
+      type = "zone1970"
+    }
+    new {
+      name = "Europe/London"
+      type = "now"
+    }
+    new {
+      name = "America/Toronto"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Fortaleza"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Boise"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Indiana/Petersburg"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Indiana/Indianapolis"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Yekaterinburg"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Ulaanbaatar"
+      type = "zone1970"
+    }
+    new {
+      name = "Australia/Melbourne"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Port_Moresby"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Menominee"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Novokuznetsk"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Tehran"
+      type = "now"
+    }
+    new {
+      name = "Africa/Lagos"
+      type = "now"
+    }
+    new {
+      name = "Africa/Cairo"
+      type = "now"
+    }
+    new {
+      name = "Asia/Oral"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Guam"
+      type = "now"
+    }
+    new {
+      name = "America/Miquelon"
+      type = "now"
+    }
+    new {
+      name = "Asia/Almaty"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Ciudad_Juarez"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Argentina/Jujuy"
+      type = "zone1970"
+    }
+    new {
+      name = "Antarctica/Troll"
+      type = "now"
+    }
+    new {
+      name = "Pacific/Kiritimati"
+      type = "now"
+    }
+    new {
+      name = "Asia/Kolkata"
+      type = "now"
+    }
+    new {
+      name = "America/Rio_Branco"
+      type = "zone1970"
+    }
+    new {
+      name = "Indian/Maldives"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Hong_Kong"
+      type = "now"
+    }
+    new {
+      name = "America/Ojinaga"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Tarawa"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Indiana/Vevay"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Gambier"
+      type = "now"
+    }
+    new {
+      name = "Asia/Yangon"
+      type = "now"
+    }
+    new {
+      name = "America/Argentina/La_Rioja"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Qyzylorda"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Pago_Pago"
+      type = "now"
+    }
+    new {
+      name = "America/Argentina/Cordoba"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Edmonton"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Fort_Nelson"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Detroit"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Guayaquil"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Kwajalein"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Galapagos"
+      type = "now"
+    }
+    new {
+      name = "America/Boa_Vista"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Kosrae"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Campo_Grande"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Santo_Domingo"
+      type = "now"
+    }
+    new {
+      name = "Asia/Seoul"
+      type = "now"
+    }
+    new {
+      name = "Pacific/Kanton"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Inuvik"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Chita"
+      type = "now"
+    }
+    new {
+      name = "Asia/Tashkent"
+      type = "now"
+    }
+    new {
+      name = "America/Resolute"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Ust-Nera"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Auckland"
+      type = "now"
+    }
+    new {
+      name = "America/Manaus"
+      type = "zone1970"
+    }
+    new {
+      name = "Australia/Lindeman"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Easter"
+      type = "now"
+    }
+    new {
+      name = "Asia/Singapore"
+      type = "now"
+    }
+    new {
+      name = "Asia/Aqtobe"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Kabul"
+      type = "now"
+    }
+    new {
+      name = "America/Argentina/Buenos_Aires"
+      type = "zone1970"
+    }
+    new {
+      name = "Europe/Astrakhan"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Pontianak"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Riyadh"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Colombo"
+      type = "now"
+    }
+    new {
+      name = "Europe/Kirov"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Bahia"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Metlakatla"
+      type = "zone1970"
+    }
+    new {
+      name = "Antarctica/Palmer"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Marquesas"
+      type = "now"
+    }
+    new {
+      name = "America/Havana"
+      type = "now"
+    }
+    new {
+      name = "America/Cambridge_Bay"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Mazatlan"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Vladivostok"
+      type = "now"
+    }
+    new {
+      name = "America/Dawson"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Anadyr"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Argentina/Ushuaia"
+      type = "zone1970"
+    }
+    new {
+      name = "Antarctica/Rothera"
       type = "zone1970"
     }
     new {
@@ -640,11 +676,75 @@ timezone = new {
       type = "zone1970"
     }
     new {
-      name = "Africa/Casablanca"
+      name = "Asia/Jayapura"
       type = "now"
     }
     new {
-      name = "Asia/Qostanay"
+      name = "Atlantic/Madeira"
+      type = "zone1970"
+    }
+    new {
+      name = "America/North_Dakota/Center"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Omsk"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Monterrey"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Punta_Arenas"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Norfolk"
+      type = "now"
+    }
+    new {
+      name = "America/Maceio"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Novosibirsk"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Dubai"
+      type = "now"
+    }
+    new {
+      name = "America/Argentina/Mendoza"
+      type = "zone1970"
+    }
+    new {
+      name = "Europe/Volgograd"
+      type = "zone1970"
+    }
+    new {
+      name = "Africa/Nairobi"
+      type = "now"
+    }
+    new {
+      name = "Australia/Adelaide"
+      type = "now"
+    }
+    new {
+      name = "America/Eirunepe"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Kentucky/Monticello"
+      type = "zone1970"
+    }
+    new {
+      name = "Europe/Madrid"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Danmarkshavn"
       type = "zone1970"
     }
     new {
@@ -656,191 +756,7 @@ timezone = new {
       type = "zone1970"
     }
     new {
-      name = "America/Argentina/San_Juan"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Srednekolymsk"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Tehran"
-      type = "now"
-    }
-    new {
-      name = "Europe/Zurich"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Cancun"
-      type = "zone1970"
-    }
-    new {
-      name = "Australia/Perth"
-      type = "now"
-    }
-    new {
-      name = "Africa/Maputo"
-      type = "now"
-    }
-    new {
-      name = "Europe/Kirov"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Moncton"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Vancouver"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Galapagos"
-      type = "now"
-    }
-    new {
-      name = "Antarctica/Macquarie"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Nome"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Miquelon"
-      type = "now"
-    }
-    new {
-      name = "Pacific/Port_Moresby"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Dawson_Creek"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Caracas"
-      type = "now"
-    }
-    new {
-      name = "America/Kentucky/Louisville"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Gambier"
-      type = "now"
-    }
-    new {
-      name = "America/Sao_Paulo"
-      type = "now"
-    }
-    new {
-      name = "Asia/Shanghai"
-      type = "now"
-    }
-    new {
-      name = "America/Boa_Vista"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Chihuahua"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Halifax"
-      type = "now"
-    }
-    new {
-      name = "America/Indiana/Knox"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Marquesas"
-      type = "now"
-    }
-    new {
-      name = "Europe/Dublin"
-      type = "now"
-    }
-    new {
-      name = "Asia/Kamchatka"
-      type = "now"
-    }
-    new {
-      name = "Australia/Broken_Hill"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Araguaina"
-      type = "zone1970"
-    }
-    new {
-      name = "Europe/Moscow"
-      type = "now"
-    }
-    new {
-      name = "Asia/Riyadh"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Indiana/Petersburg"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Argentina/Mendoza"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Anchorage"
-      type = "now"
-    }
-    new {
-      name = "Europe/Astrakhan"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Indiana/Tell_City"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Porto_Velho"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Chicago"
-      type = "now"
-    }
-    new {
-      name = "America/Thule"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Dubai"
-      type = "now"
-    }
-    new {
-      name = "America/Nuuk"
-      type = "now"
-    }
-    new {
-      name = "Asia/Irkutsk"
-      type = "zone1970"
-    }
-    new {
-      name = "Australia/Brisbane"
-      type = "now"
-    }
-    new {
-      name = "America/Argentina/Buenos_Aires"
-      type = "zone1970"
-    }
-    new {
-      name = "Africa/Nairobi"
-      type = "now"
-    }
-    new {
-      name = "Africa/Johannesburg"
+      name = "Africa/Casablanca"
       type = "now"
     }
     new {
@@ -848,91 +764,151 @@ timezone = new {
       type = "now"
     }
     new {
-      name = "America/Indiana/Winamac"
+      name = "Europe/Athens"
+      type = "now"
+    }
+    new {
+      name = "America/Moncton"
       type = "zone1970"
+    }
+    new {
+      name = "Asia/Urumqi"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Famagusta"
+      type = "zone1970"
+    }
+    new {
+      name = "Pacific/Niue"
+      type = "now"
+    }
+    new {
+      name = "America/Thule"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Jakarta"
+      type = "now"
+    }
+    new {
+      name = "Asia/Magadan"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Indiana/Tell_City"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Lima"
+      type = "now"
     }
     new {
       name = "America/Argentina/Tucuman"
       type = "zone1970"
     }
     new {
-      name = "Europe/Berlin"
+      name = "America/Regina"
       type = "zone1970"
     }
     new {
-      name = "Australia/Melbourne"
+      name = "Asia/Yakutsk"
       type = "zone1970"
     }
     new {
-      name = "Africa/Cairo"
+      name = "Europe/Samara"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Panama"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Irkutsk"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Halifax"
       type = "now"
     }
     new {
-      name = "America/Indiana/Indianapolis"
+      name = "America/Chihuahua"
       type = "zone1970"
     }
     new {
-      name = "America/Puerto_Rico"
-      type = "zone1970"
-    }
-    new {
-      name = "Asia/Ho_Chi_Minh"
-      type = "zone1970"
-    }
-    new {
-      name = "Pacific/Kosrae"
-      type = "zone1970"
-    }
-    new {
-      name = "America/Santiago"
+      name = "Asia/Karachi"
       type = "now"
     }
     new {
-      name = "Europe/Athens"
-      type = "now"
-    }
-    new {
-      name = "Asia/Vladivostok"
-      type = "now"
-    }
-    new {
-      name = "Africa/Lagos"
-      type = "now"
-    }
-    new {
-      name = "America/Recife"
+      name = "America/Kentucky/Louisville"
       type = "zone1970"
     }
     new {
-      name = "Pacific/Norfolk"
+      name = "America/Noronha"
       type = "now"
     }
     new {
-      name = "America/Ciudad_Juarez"
+      name = "Asia/Aqtau"
       type = "zone1970"
+    }
+    new {
+      name = "Asia/Tokyo"
+      type = "now"
+    }
+    new {
+      name = "America/Argentina/Salta"
+      type = "zone1970"
+    }
+    new {
+      name = "Africa/Maputo"
+      type = "now"
+    }
+    new {
+      name = "America/Whitehorse"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Porto_Velho"
+      type = "zone1970"
+    }
+    new {
+      name = "America/North_Dakota/New_Salem"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Shanghai"
+      type = "now"
     }
     new {
       name = "Asia/Kuching"
       type = "zone1970"
     }
     new {
-      name = "Atlantic/Azores"
+      name = "Africa/Tripoli"
       type = "now"
     }
     new {
-      name = "Asia/Seoul"
+      name = "Europe/Istanbul"
       type = "now"
     }
     new {
-      name = "Asia/Jerusalem"
+      name = "America/Araguaina"
+      type = "zone1970"
+    }
+    new {
+      name = "America/Indiana/Winamac"
+      type = "zone1970"
+    }
+    new {
+      name = "Asia/Kamchatka"
       type = "now"
     }
     new {
-      name = "America/Los_Angeles"
-      type = "now"
+      name = "America/Argentina/San_Luis"
+      type = "zone1970"
     }
     new {
-      name = "America/Glace_Bay"
+      name = "Europe/Ulyanovsk"
       type = "zone1970"
     }
     new {
@@ -940,19 +916,43 @@ timezone = new {
       type = "zone1970"
     }
     new {
-      name = "America/Sitka"
+      name = "America/Indiana/Marengo"
       type = "zone1970"
     }
     new {
-      name = "America/Monterrey"
+      name = "Asia/Jerusalem"
+      type = "now"
+    }
+    new {
+      name = "Australia/Perth"
+      type = "now"
+    }
+    new {
+      name = "America/New_York"
+      type = "now"
+    }
+    new {
+      name = "Australia/Darwin"
+      type = "now"
+    }
+    new {
+      name = "Africa/Abidjan"
+      type = "now"
+    }
+    new {
+      name = "Asia/Samarkand"
       type = "zone1970"
     }
     new {
-      name = "Asia/Oral"
+      name = "America/Cancun"
       type = "zone1970"
     }
     new {
-      name = "Pacific/Kiritimati"
+      name = "Atlantic/Cape_Verde"
+      type = "now"
+    }
+    new {
+      name = "Europe/Moscow"
       type = "now"
     }
 }
