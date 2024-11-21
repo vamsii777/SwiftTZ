@@ -6,13 +6,13 @@ import Testing
 struct TimeZoneTests {
   @Test func timeZoneCreation() {
     // Test valid timezone creation
-    #expect(throws: Never.self) { TimeZone(identifier: .americaNew_York) }
+    #expect(throws: Never.self) { TimeZone(identifier: .americaNewYork) }
     #expect(throws: Never.self) { TimeZone(.europeLondon) }
     #expect(throws: Never.self) { TimeZone(.asiaTokyo) }
 
     // Test timezone properties
-    let nyTz = TimeZone(.americaNew_York)
-    #expect(nyTz.timeZoneIdentifier == .americaNew_York)
+    let nyTz = TimeZone(.americaNewYork)
+    #expect(nyTz.timeZoneIdentifier == .americaNewYork)
     #expect(nyTz.identifier == "America/New_York")
   }
 
@@ -20,7 +20,7 @@ struct TimeZoneTests {
     // Test some commonly used timezones
     let timezones: [TimeZoneIdentifier] = [
       .europeLondon,  // UTC+0/+1
-      .americaNew_York,  // UTC-5/-4
+      .americaNewYork,  // UTC-5/-4
       .asiaTokyo,  // UTC+9
       .australiaSydney,  // UTC+10/+11
       .pacificHonolulu,  // UTC-10
@@ -34,7 +34,7 @@ struct TimeZoneTests {
 
   @Test func timeZoneRoundTrip() {
     // Test that converting from Foundation.TimeZone to our identifier and back works
-    let originalTz = TimeZone(.americaNew_York)
+    let originalTz = TimeZone(.americaNewYork)
     let identifier = originalTz.timeZoneIdentifier
     let roundTripTz = TimeZone(identifier)
 
@@ -52,7 +52,7 @@ struct TimeZoneTests {
 
   @Test func timeZoneOffsets() {
     // Test timezone offset calculations
-    let nyTz = TimeZone(.americaNew_York)
+    let nyTz = TimeZone(.americaNewYork)
     let tokyoTz = TimeZone(.asiaTokyo)
 
     // Create dates using Calendar to ensure proper date creation
