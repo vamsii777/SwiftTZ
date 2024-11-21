@@ -1,0 +1,8 @@
+import "name.pkl"
+
+class timezoneList {
+    name: String
+    type: String
+}
+
+timezone: Listing<timezoneList>

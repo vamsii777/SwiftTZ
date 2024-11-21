@@ -1,0 +1,3 @@
+open module type
+
+type: String
