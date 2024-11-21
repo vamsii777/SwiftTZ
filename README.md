@@ -13,7 +13,7 @@ Add SwiftTZ to your `Package.swift` file:
 
 ```swift
 dependencies: [
-  .package(url: "https://github.com/vamsi777/SwiftTZ.git", from: "0.1.0")
+  .package(url: "https://github.com/vamsi777/SwiftTZ.git", from: "0.2.0")
 ]
 ```
 
@@ -24,7 +24,7 @@ To use a timezone, create a `TimeZone` instance using a `TimeZoneIdentifier`:
 ```swift
 import SwiftTZ
 
-let newYork = TimeZone(.americaNew_York)
+let newYork = TimeZone(.americaNewYork)
 print(newYork.identifier) // "America/New_York"
 ```
 
@@ -33,7 +33,7 @@ print(newYork.identifier) // "America/New_York"
 The `TimeZone` initializer that takes a `TimeZoneIdentifier` will never fail because the set of identifiers is statically known and known to be valid.  
 
 ```swift
-let newYork = TimeZone(.americaNew_York)
+let newYork = TimeZone(.americaNewYork)
 print(newYork.identifier) // "America/New_York"
 ```
 
@@ -66,7 +66,7 @@ git clone https://github.com/vamsi777/SwiftTZ.git
 cd SwiftTZ
 ```
 
-2. Run the generator to fetch the latest IANA Time Zone Database and generate the `TimeZoneModule.pkl.swift` file
+2. Run the generator to fetch the latest IANA Time Zone Database and generate the `TimeZoneIdentifier.swift` file
 
 ```sh
 swift run tzdb-gen
