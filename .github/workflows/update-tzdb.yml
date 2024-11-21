@@ -109,11 +109,11 @@ jobs:
       - name: Check Generated Files
         if: steps.check.outputs.changes_detected == 'true'
         run: |
-          if [ ! -f "Sources/pkl/TimeZones.pkl" ]; then
-            echo "Error: TimeZones.pkl was not generated"
+          if [ ! -f "Sources/TimeZoneIdentifier.swift" ]; then
+            echo "Error: TimeZoneIdentifier.swift was not generated"
             exit 1
           fi
-          if [ ! -f "Sources/SwiftTZ/Generated/TimeZoneModule.pkl.swift" ]; then
-            echo "Error: TimeZoneModule.pkl.swift was not generated"
+          if [ ! -f "Sources/TimeZoneIdentifier.swift" ]; then
+            echo "Error: TimeZoneIdentifier.swift was not generated"
             exit 1
           fi
