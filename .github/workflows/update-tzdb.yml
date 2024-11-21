@@ -1,0 +1,88 @@
+name: Update TZDB
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allow manual trigger
+  repository_dispatch:
+    types: [tzdb-update]
+
+jobs:
+  check-and-update:
+    name: Check and Update TZDB
+    runs-on: macos-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      
+      - name: Select Xcode
+        run: |
+          sudo xcode-select -s /Applications/Xcode_15.2.app
+          swift --version
+      
+      - name: Install pkl
+        run: |
+          brew install pkl
+          pkl --version
+      
+      - name: Download current zonenow.tab
+        run: |
+          curl -o zonenow.tab.new https://raw.githubusercontent.com/eggert/tz/main/zonenow.tab
+          
+      - name: Check for changes
+        id: check
+        run: |
+          if [ ! -f "zonenow.tab" ] || ! cmp -s "zonenow.tab" "zonenow.tab.new"; then
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+            mv zonenow.tab.new zonenow.tab
+          else
+            echo "No changes detected in zonenow.tab"
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build project
+        if: steps.check.outputs.changes_detected == 'true'
+        run: swift build
+      
+      - name: Generate updated timezone data
+        if: steps.check.outputs.changes_detected == 'true'
+        run: swift run tzdb-gen
+      
+      - name: Create Pull Request
+        if: steps.check.outputs.changes_detected == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: Update timezone database"
+          title: "chore: Update timezone database"
+          body: |
+            This PR updates the timezone database based on changes in the IANA tzdb.
+            
+            Changes were automatically detected and generated using the `tzdb-gen` tool.
+            
+            - Updated `zonenow.tab` from IANA
+            - Regenerated PKL schema
+            - Updated Swift generated code
+            
+            Please review the changes and merge if everything looks correct.
+          branch: update-tzdb
+          base: main
+          labels: |
+            automated
+            tzdb-update
+          delete-branch: true
+
+      - name: Check Generated Files
+        if: steps.check.outputs.changes_detected == 'true'
+        run: |
+          if [ ! -f "Sources/pkl/TimeZones.pkl" ]; then
+            echo "Error: TimeZones.pkl was not generated"
+            exit 1
+          fi
+          if [ ! -f "Sources/SwiftTZ/Generated/TimeZoneModule.pkl.swift" ]; then
+            echo "Error: TimeZoneModule.pkl.swift was not generated"
+            exit 1
+          fi

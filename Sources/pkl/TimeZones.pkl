@@ -1,0 +1,10 @@
+@swift.Name { value = "TimeZoneModule" }
+module TimeZoneModule
+
+import "package://pkg.pkl-lang.org/pkl-swift/pkl.swift@0.3.0#/swift.pkl"
+
+/// All supported IANA timezone identifiers
+typealias TimeZoneIdentifier = "Pacific/Pago_Pago" | "Pacific/Niue" | "Pacific/Honolulu" | "Pacific/Tahiti" | "America/Adak" | "Pacific/Marquesas" | "Pacific/Gambier" | "America/Anchorage" | "Pacific/Pitcairn" | "America/Los_Angeles" | "America/Phoenix" | "America/Denver" | "Pacific/Galapagos" | "America/Mexico_City" | "Pacific/Easter" | "America/Chicago" | "America/Lima" | "America/Jamaica" | "America/Havana" | "America/New_York" | "America/Caracas" | "America/Santo_Domingo" | "America/Santiago" | "America/Halifax" | "America/St_Johns" | "America/Sao_Paulo" | "America/Miquelon" | "America/Noronha" | "America/Nuuk" | "Atlantic/Cape_Verde" | "Atlantic/Azores" | "Africa/Abidjan" | "Europe/London" | "Europe/Lisbon" | "Antarctica/Troll" | "Africa/Algiers" | "Africa/Lagos" | "Europe/Dublin" | "Africa/Casablanca" | "Europe/Paris" | "Africa/Maputo" | "Africa/Tripoli" | "Africa/Johannesburg" | "Europe/Athens" | "Africa/Cairo" | "Asia/Beirut" | "Europe/Chisinau" | "Asia/Gaza" | "Asia/Jerusalem" | "Europe/Istanbul" | "Africa/Nairobi" | "Europe/Moscow" | "Asia/Tehran" | "Asia/Dubai" | "Asia/Kabul" | "Asia/Tashkent" | "Asia/Karachi" | "Asia/Colombo" | "Asia/Kolkata" | "Asia/Kathmandu" | "Asia/Dhaka" | "Asia/Yangon" | "Asia/Bangkok" | "Asia/Jakarta" | "Asia/Singapore" | "Australia/Perth" | "Asia/Shanghai" | "Asia/Hong_Kong" | "Asia/Manila" | "Asia/Makassar" | "Australia/Eucla" | "Asia/Chita" | "Asia/Tokyo" | "Asia/Seoul" | "Asia/Jayapura" | "Australia/Darwin" | "Australia/Adelaide" | "Asia/Vladivostok" | "Australia/Brisbane" | "Pacific/Guam" | "Australia/Sydney" | "Australia/Lord_Howe" | "Pacific/Bougainville" | "Pacific/Norfolk" | "Asia/Kamchatka" | "Pacific/Auckland" | "Pacific/Chatham" | "Pacific/Tongatapu" | "Pacific/Kiritimati"
+
+/// Default timezone for the current system
+defaultTimeZone: TimeZoneIdentifier = "UTC"

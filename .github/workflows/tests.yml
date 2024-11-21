@@ -1,0 +1,66 @@
+name: Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  macos-tests:
+    name: macOS Tests (Swift ${{ matrix.swift }})
+    runs-on: macos-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        swift: ["6.0"]
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      
+      - name: Install pkl
+        run: |
+          brew install pkl
+          pkl --version
+      
+      - name: Select Xcode for Swift ${{ matrix.swift }}
+        run: |
+          sudo xcode-select -s /Applications/Xcode_16.1.app
+          swift --version
+      
+      - name: Build
+        run: swift build
+      
+      - name: Run tests
+        run: swift test
+
+  linux-tests:
+    name: Linux Tests (Swift ${{ matrix.swift }})
+    runs-on: ubuntu-latest
+    container:
+      image: swift:${{ matrix.swift }}-jammy
+    strategy:
+      fail-fast: false
+      matrix:
+        swift: ["6.0"]
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      
+      - name: Install pkl
+        run: |
+          curl -L -o pkl https://github.com/apple/pkl/releases/download/0.25.0/pkl-linux-amd64
+          chmod +x pkl
+          mv pkl /usr/local/bin/
+          pkl --version
+      
+      - name: Build
+        run: swift build
+      
+      - name: Run tests
+        run: swift test

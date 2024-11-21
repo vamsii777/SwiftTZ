@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "lineLength": 100,
+  "indentation": {
+    "spaces": 2
+  },
+  "tabWidth": 2,
+  "maximumBlankLines": 1,
+  "respectsExistingLineBreaks": true,
+  "rules": {
+    "AllPublicDeclarationsHaveDocumentation": true,
+    "AlwaysUseLowerCamelCase": true,
+    "BeginDocumentationCommentWithOneLineSummary": true,
+    "DoNotUseSemicolons": true,
+    "FullyIndirectEnum": true,
+    "GroupNumericLiterals": true,
+    "NoBlockComments": true,
+    "OneCasePerLine": true,
+    "OrderedImports": true,
+    "UseLetInEveryBoundCaseVariable": true,
+    "UseShorthandTypeNames": true,
+    "UseSingleLinePropertyGetter": true,
+    "UseTripleSlashForDocumentationComments": true,
+    "ValidateDocumentationComments": true,
+    "FileScopedDeclarationPrivacy": true,
+    "NeverForceUnwrap": true,
+    "NeverUseForceTry": true,
+    "NoAccessLevelOnExtensionDeclaration": true,
+    "UseExplicitNilCheckInConditions": true,
+    "UseSynthesizedInitializer": true,
+    "UseWhereClausesInForLoops": true,
+    "NoEmptyTrailingClosureParentheses": true
+  },
+  "excluded": [
+    ".build",
+    "Packages",
+    "Sources/SwiftTZ/Generated"
+  ]
+}
