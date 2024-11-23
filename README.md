@@ -13,7 +13,7 @@ Add SwiftTZ to your `Package.swift` file:
 
 ```swift
 dependencies: [
-  .package(url: "https://github.com/vamsi777/SwiftTZ.git", from: "0.2.0")
+  .package(url: "https://github.com/vamsii777/SwiftTZ.git", from: "0.2.0")
 ]
 ```
 
@@ -51,7 +51,7 @@ print(identifier) // "europeLondon"
 ## Package Structure
 
 - `Sources/SwiftTZ`: The main library
-- `Sources/SwiftTZGenerator`: The generator executable that fetches the latest IANA Time Zone Database and generates the `TimeZoneModule.pkl.swift` file
+- `Sources/SwiftTZGenerator`: The generator executable that fetches the latest IANA Time Zone Database
 - `Tests/SwiftTZTests`: Unit tests  
 
 ## Contributing
