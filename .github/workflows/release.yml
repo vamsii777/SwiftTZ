@@ -29,7 +29,7 @@ jobs:
       - name: Determine Version
         id: version
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
         run: |
           # Get latest release tag (if any)
           latest_tag=$(gh release view --json tagName --jq .tagName || echo "v0.0.0")
@@ -108,7 +108,7 @@ jobs:
           body_path: release_notes.md
           draft: false
           prerelease: false
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
 
       - name: Update Documentation
         if: success()
