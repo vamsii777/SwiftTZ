@@ -12,8 +12,7 @@ let package = Package(
         .visionOS(.v1)
     ],
     products: [
-        .library(name: "SwiftTZ", targets: ["SwiftTZ"]),
-        .executable(name: "tzdb-gen", targets: ["SwiftTZGenerator"]),
+        .library(name: "SwiftTZ", targets: ["SwiftTZ"])
     ],
     targets: [
         // Generator executable
