@@ -46,12 +46,12 @@ jobs:
           fi
           
           # Determine version bump type from PR labels
-          labels="${{ toJSON(github.event.pull_request.labels.*.name) }}"
-          if echo "$labels" | jq -e 'contains(["major"])' > /dev/null; then
+          labels=$(echo '${{ toJSON(github.event.pull_request.labels.*.name) }}')
+          if echo "$labels" | jq -e 'any(. == "major")' > /dev/null; then
             major=$((major + 1))
             minor=0
             patch=0
-          elif echo "$labels" | jq -e 'contains(["minor"])' > /dev/null; then
+          elif echo "$labels" | jq -e 'any(. == "minor")' > /dev/null; then
             minor=$((minor + 1))
             patch=0
           else
