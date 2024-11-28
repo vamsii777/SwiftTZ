@@ -64,7 +64,7 @@ jobs:
       
       - name: Generate updated timezone data
         if: steps.check.outputs.changes_detected == 'true'
-        run: swift run tzdb-gen
+        run: swift run SwiftTZGenerator
       
       - name: Create Pull Request
         if: steps.check.outputs.changes_detected == 'true'
@@ -76,7 +76,7 @@ jobs:
           body: |
             This PR updates the timezone database based on changes in the IANA tzdb.
             
-            Changes were automatically detected and generated using the `tzdb-gen` tool.
+            Changes were automatically detected and generated using the `SwiftTZGenerator` tool.
             
             ### Changes
             <details>

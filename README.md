@@ -69,7 +69,7 @@ cd SwiftTZ
 2. Run the generator to fetch the latest IANA Time Zone Database and generate the `TimeZoneIdentifier.swift` file
 
 ```sh
-swift run tzdb-gen
+swift run SwiftTZGenerator
 ``` 
 
 ## Acknowledgments
