@@ -13,723 +13,726 @@ public enum TimeZoneIdentifier: String, CaseIterable, Hashable {
     }
     
         /// Current timezone from zonenow.tab
-    case asiaChita = "Asia/Chita"
-            /// Historical timezone from zone1970.tab
-    case americaFortNelson = "America/Fort_Nelson"
-            /// Historical timezone from zone1970.tab
-    case americaGuayaquil = "America/Guayaquil"
-            /// Historical timezone from zone1970.tab
-    case asiaQyzylorda = "Asia/Qyzylorda"
-            /// Historical timezone from zone1970.tab
-    case asiaYakutsk = "Asia/Yakutsk"
-            /// Historical timezone from zone1970.tab
-    case europeSimferopol = "Europe/Simferopol"
+    case antarcticaTroll = "Antarctica/Troll"
             /// Current timezone from zonenow.tab
-    case asiaJakarta = "Asia/Jakarta"
-            /// Historical timezone from zone1970.tab
-    case australiaBrokenHill = "Australia/Broken_Hill"
-            /// Historical timezone from zone1970.tab
-    case europeSamara = "Europe/Samara"
-            /// Current timezone from zonenow.tab
-    case americaSaoPaulo = "America/Sao_Paulo"
-            /// Current timezone from zonenow.tab
-    case asiaSeoul = "Asia/Seoul"
-            /// Historical timezone from zone1970.tab
-    case americaIndianaVincennes = "America/Indiana/Vincennes"
-            /// Historical timezone from zone1970.tab
-    case asiaSamarkand = "Asia/Samarkand"
-            /// Current timezone from zonenow.tab
-    case australiaAdelaide = "Australia/Adelaide"
-            /// Current timezone from zonenow.tab
-    case asiaKamchatka = "Asia/Kamchatka"
-            /// Historical timezone from zone1970.tab
-    case americaDawsonCreek = "America/Dawson_Creek"
-            /// Historical timezone from zone1970.tab
-    case africaCeuta = "Africa/Ceuta"
-            /// Historical timezone from zone1970.tab
-    case asiaAlmaty = "Asia/Almaty"
-            /// Historical timezone from zone1970.tab
-    case americaArgentinaMendoza = "America/Argentina/Mendoza"
-            /// Historical timezone from zone1970.tab
-    case americaBoise = "America/Boise"
-            /// Historical timezone from zone1970.tab
-    case europeAstrakhan = "Europe/Astrakhan"
-            /// Historical timezone from zone1970.tab
-    case americaNorthDakotaCenter = "America/North_Dakota/Center"
-            /// Current timezone from zonenow.tab
-    case australiaPerth = "Australia/Perth"
-            /// Historical timezone from zone1970.tab
-    case asiaBarnaul = "Asia/Barnaul"
-            /// Historical timezone from zone1970.tab
-    case americaMoncton = "America/Moncton"
-            /// Current timezone from zonenow.tab
-    case asiaSingapore = "Asia/Singapore"
-            /// Current timezone from zonenow.tab
-    case pacificHonolulu = "Pacific/Honolulu"
-            /// Historical timezone from zone1970.tab
-    case asiaHoChiMinh = "Asia/Ho_Chi_Minh"
-            /// Current timezone from zonenow.tab
-    case europeChisinau = "Europe/Chisinau"
+    case asiaTokyo = "Asia/Tokyo"
             /// Current timezone from zonenow.tab
     case australiaLordHowe = "Australia/Lord_Howe"
-            /// Historical timezone from zone1970.tab
-    case americaGlaceBay = "America/Glace_Bay"
-            /// Current timezone from zonenow.tab
-    case asiaTehran = "Asia/Tehran"
-            /// Current timezone from zonenow.tab
-    case americaLosAngeles = "America/Los_Angeles"
-            /// Historical timezone from zone1970.tab
-    case americaMazatlan = "America/Mazatlan"
-            /// Historical timezone from zone1970.tab
-    case americaManaus = "America/Manaus"
-            /// Historical timezone from zone1970.tab
-    case antarcticaDavis = "Antarctica/Davis"
-            /// Historical timezone from zone1970.tab
-    case americaRegina = "America/Regina"
-            /// Historical timezone from zone1970.tab
-    case americaBahiaBanderas = "America/Bahia_Banderas"
-            /// Historical timezone from zone1970.tab
-    case americaArgentinaJujuy = "America/Argentina/Jujuy"
-            /// Historical timezone from zone1970.tab
-    case americaNorthDakotaBeulah = "America/North_Dakota/Beulah"
-            /// Current timezone from zonenow.tab
-    case americaCaracas = "America/Caracas"
-            /// Current timezone from zonenow.tab
-    case europeAthens = "Europe/Athens"
-            /// Historical timezone from zone1970.tab
-    case asiaFamagusta = "Asia/Famagusta"
-            /// Current timezone from zonenow.tab
-    case asiaTashkent = "Asia/Tashkent"
-            /// Historical timezone from zone1970.tab
-    case indianMaldives = "Indian/Maldives"
-            /// Current timezone from zonenow.tab
-    case americaNewYork = "America/New_York"
-            /// Historical timezone from zone1970.tab
-    case americaYakutat = "America/Yakutat"
-            /// Current timezone from zonenow.tab
-    case americaHavana = "America/Havana"
-            /// Current timezone from zonenow.tab
-    case pacificTahiti = "Pacific/Tahiti"
-            /// Historical timezone from zone1970.tab
-    case americaCancun = "America/Cancun"
-            /// Current timezone from zonenow.tab
-    case africaAbidjan = "Africa/Abidjan"
-            /// Historical timezone from zone1970.tab
-    case antarcticaMawson = "Antarctica/Mawson"
-            /// Historical timezone from zone1970.tab
-    case americaIqaluit = "America/Iqaluit"
-            /// Historical timezone from zone1970.tab
-    case asiaTomsk = "Asia/Tomsk"
-            /// Historical timezone from zone1970.tab
-    case asiaQostanay = "Asia/Qostanay"
-            /// Historical timezone from zone1970.tab
-    case americaAraguaina = "America/Araguaina"
-            /// Historical timezone from zone1970.tab
-    case americaHermosillo = "America/Hermosillo"
-            /// Historical timezone from zone1970.tab
-    case europeZurich = "Europe/Zurich"
-            /// Historical timezone from zone1970.tab
-    case asiaAtyrau = "Asia/Atyrau"
-            /// Historical timezone from zone1970.tab
-    case europeBerlin = "Europe/Berlin"
-            /// Historical timezone from zone1970.tab
-    case americaInuvik = "America/Inuvik"
-            /// Current timezone from zonenow.tab
-    case americaLima = "America/Lima"
-            /// Current timezone from zonenow.tab
-    case australiaDarwin = "Australia/Darwin"
-            /// Current timezone from zonenow.tab
-    case asiaJerusalem = "Asia/Jerusalem"
-            /// Historical timezone from zone1970.tab
-    case americaArgentinaRioGallegos = "America/Argentina/Rio_Gallegos"
-            /// Historical timezone from zone1970.tab
-    case americaNome = "America/Nome"
-            /// Current timezone from zonenow.tab
-    case asiaBangkok = "Asia/Bangkok"
-            /// Historical timezone from zone1970.tab
-    case americaMaceio = "America/Maceio"
-            /// Current timezone from zonenow.tab
-    case asiaJayapura = "Asia/Jayapura"
-            /// Historical timezone from zone1970.tab
-    case americaMatamoros = "America/Matamoros"
-            /// Historical timezone from zone1970.tab
-    case americaIndianaTellCity = "America/Indiana/Tell_City"
-            /// Historical timezone from zone1970.tab
-    case asiaAnadyr = "Asia/Anadyr"
-            /// Historical timezone from zone1970.tab
-    case americaArgentinaCordoba = "America/Argentina/Cordoba"
-            /// Historical timezone from zone1970.tab
-    case americaKentuckyMonticello = "America/Kentucky/Monticello"
-            /// Historical timezone from zone1970.tab
-    case pacificPortMoresby = "Pacific/Port_Moresby"
-            /// Historical timezone from zone1970.tab
-    case asiaSrednekolymsk = "Asia/Srednekolymsk"
-            /// Historical timezone from zone1970.tab
-    case americaMenominee = "America/Menominee"
-            /// Historical timezone from zone1970.tab
-    case asiaOmsk = "Asia/Omsk"
-            /// Current timezone from zonenow.tab
-    case africaMaputo = "Africa/Maputo"
-            /// Historical timezone from zone1970.tab
-    case antarcticaPalmer = "Antarctica/Palmer"
-            /// Historical timezone from zone1970.tab
-    case americaGooseBay = "America/Goose_Bay"
-            /// Historical timezone from zone1970.tab
-    case americaNorthDakotaNewSalem = "America/North_Dakota/New_Salem"
-            /// Current timezone from zonenow.tab
-    case africaLagos = "Africa/Lagos"
-            /// Historical timezone from zone1970.tab
-    case americaWhitehorse = "America/Whitehorse"
-            /// Historical timezone from zone1970.tab
-    case americaResolute = "America/Resolute"
-            /// Historical timezone from zone1970.tab
-    case asiaKuching = "Asia/Kuching"
-            /// Historical timezone from zone1970.tab
-    case atlanticCanary = "Atlantic/Canary"
-            /// Historical timezone from zone1970.tab
-    case asiaHebron = "Asia/Hebron"
-            /// Current timezone from zonenow.tab
-    case asiaDubai = "Asia/Dubai"
-            /// Historical timezone from zone1970.tab
-    case australiaLindeman = "Australia/Lindeman"
-            /// Current timezone from zonenow.tab
-    case americaHalifax = "America/Halifax"
-            /// Historical timezone from zone1970.tab
-    case atlanticMadeira = "Atlantic/Madeira"
-            /// Historical timezone from zone1970.tab
-    case americaSitka = "America/Sitka"
-            /// Historical timezone from zone1970.tab
-    case europeMadrid = "Europe/Madrid"
             /// Current timezone from zonenow.tab
     case pacificNiue = "Pacific/Niue"
-            /// Current timezone from zonenow.tab
-    case pacificGambier = "Pacific/Gambier"
-            /// Current timezone from zonenow.tab
-    case australiaEucla = "Australia/Eucla"
-            /// Historical timezone from zone1970.tab
-    case americaRecife = "America/Recife"
-            /// Historical timezone from zone1970.tab
-    case americaRioBranco = "America/Rio_Branco"
-            /// Historical timezone from zone1970.tab
-    case asiaUlaanbaatar = "Asia/Ulaanbaatar"
-            /// Historical timezone from zone1970.tab
-    case americaCuiaba = "America/Cuiaba"
-            /// Historical timezone from zone1970.tab
-    case americaRankinInlet = "America/Rankin_Inlet"
-            /// Current timezone from zonenow.tab
-    case australiaBrisbane = "Australia/Brisbane"
-            /// Current timezone from zonenow.tab
-    case americaAdak = "America/Adak"
-            /// Historical timezone from zone1970.tab
-    case americaMetlakatla = "America/Metlakatla"
-            /// Historical timezone from zone1970.tab
-    case americaMonterrey = "America/Monterrey"
-            /// Current timezone from zonenow.tab
-    case americaAnchorage = "America/Anchorage"
-            /// Current timezone from zonenow.tab
-    case europeMoscow = "Europe/Moscow"
-            /// Current timezone from zonenow.tab
-    case pacificEaster = "Pacific/Easter"
-            /// Historical timezone from zone1970.tab
-    case americaFortaleza = "America/Fortaleza"
-            /// Current timezone from zonenow.tab
-    case asiaMakassar = "Asia/Makassar"
-            /// Historical timezone from zone1970.tab
-    case americaSwiftCurrent = "America/Swift_Current"
-            /// Historical timezone from zone1970.tab
-    case pacificKosrae = "Pacific/Kosrae"
-            /// Current timezone from zonenow.tab
-    case australiaSydney = "Australia/Sydney"
-            /// Historical timezone from zone1970.tab
-    case americaThule = "America/Thule"
-            /// Current timezone from zonenow.tab
-    case americaNoronha = "America/Noronha"
-            /// Current timezone from zonenow.tab
-    case pacificKiritimati = "Pacific/Kiritimati"
-            /// Current timezone from zonenow.tab
-    case asiaKolkata = "Asia/Kolkata"
-            /// Historical timezone from zone1970.tab
-    case americaCiudadJuarez = "America/Ciudad_Juarez"
-            /// Historical timezone from zone1970.tab
-    case asiaUstnera = "Asia/Ust-Nera"
-            /// Historical timezone from zone1970.tab
-    case americaArgentinaSanJuan = "America/Argentina/San_Juan"
-            /// Current timezone from zonenow.tab
-    case asiaKathmandu = "Asia/Kathmandu"
-            /// Current timezone from zonenow.tab
-    case atlanticCapeVerde = "Atlantic/Cape_Verde"
-            /// Historical timezone from zone1970.tab
-    case europeKyiv = "Europe/Kyiv"
-            /// Current timezone from zonenow.tab
-    case africaTripoli = "Africa/Tripoli"
-            /// Current timezone from zonenow.tab
-    case asiaGaza = "Asia/Gaza"
-            /// Current timezone from zonenow.tab
-    case asiaVladivostok = "Asia/Vladivostok"
-            /// Current timezone from zonenow.tab
-    case europeParis = "Europe/Paris"
-            /// Historical timezone from zone1970.tab
-    case americaCampoGrande = "America/Campo_Grande"
-            /// Historical timezone from zone1970.tab
-    case americaCambridgeBay = "America/Cambridge_Bay"
             /// Historical timezone from zone1970.tab
     case americaPortoVelho = "America/Porto_Velho"
             /// Historical timezone from zone1970.tab
-    case americaBoaVista = "America/Boa_Vista"
+    case americaDawsonCreek = "America/Dawson_Creek"
             /// Historical timezone from zone1970.tab
-    case americaEirunepe = "America/Eirunepe"
+    case americaWhitehorse = "America/Whitehorse"
             /// Current timezone from zonenow.tab
-    case atlanticAzores = "Atlantic/Azores"
-            /// Current timezone from zonenow.tab
-    case africaCasablanca = "Africa/Casablanca"
+    case europeMoscow = "Europe/Moscow"
             /// Historical timezone from zone1970.tab
-    case asiaKrasnoyarsk = "Asia/Krasnoyarsk"
+    case indianMaldives = "Indian/Maldives"
             /// Historical timezone from zone1970.tab
-    case americaDanmarkshavn = "America/Danmarkshavn"
-            /// Current timezone from zonenow.tab
-    case asiaHongKong = "Asia/Hong_Kong"
+    case americaRankinInlet = "America/Rankin_Inlet"
             /// Historical timezone from zone1970.tab
-    case americaDawson = "America/Dawson"
-            /// Current timezone from zonenow.tab
-    case asiaYangon = "Asia/Yangon"
-            /// Historical timezone from zone1970.tab
-    case americaJuneau = "America/Juneau"
-            /// Historical timezone from zone1970.tab
-    case americaPuertoRico = "America/Puerto_Rico"
-            /// Historical timezone from zone1970.tab
-    case antarcticaVostok = "Antarctica/Vostok"
-            /// Current timezone from zonenow.tab
-    case pacificPagoPago = "Pacific/Pago_Pago"
-            /// Current timezone from zonenow.tab
-    case americaMexicoCity = "America/Mexico_City"
-            /// Historical timezone from zone1970.tab
-    case asiaMagadan = "Asia/Magadan"
-            /// Historical timezone from zone1970.tab
-    case americaIndianaWinamac = "America/Indiana/Winamac"
-            /// Historical timezone from zone1970.tab
-    case americaTijuana = "America/Tijuana"
-            /// Historical timezone from zone1970.tab
-    case antarcticaCasey = "Antarctica/Casey"
-            /// Historical timezone from zone1970.tab
-    case asiaUrumqi = "Asia/Urumqi"
-            /// Historical timezone from zone1970.tab
-    case americaWinnipeg = "America/Winnipeg"
-            /// Historical timezone from zone1970.tab
-    case americaPanama = "America/Panama"
-            /// Historical timezone from zone1970.tab
-    case americaIndianaVevay = "America/Indiana/Vevay"
-            /// Historical timezone from zone1970.tab
-    case pacificTarawa = "Pacific/Tarawa"
-            /// Historical timezone from zone1970.tab
-    case americaScoresbysund = "America/Scoresbysund"
-            /// Current timezone from zonenow.tab
-    case europeLondon = "Europe/London"
-            /// Current timezone from zonenow.tab
-    case pacificMarquesas = "Pacific/Marquesas"
-            /// Historical timezone from zone1970.tab
-    case pacificKwajalein = "Pacific/Kwajalein"
-            /// Historical timezone from zone1970.tab
-    case pacificGuadalcanal = "Pacific/Guadalcanal"
-            /// Historical timezone from zone1970.tab
-    case asiaAqtobe = "Asia/Aqtobe"
-            /// Current timezone from zonenow.tab
-    case americaSantiago = "America/Santiago"
-            /// Historical timezone from zone1970.tab
-    case asiaSakhalin = "Asia/Sakhalin"
-            /// Historical timezone from zone1970.tab
-    case australiaMelbourne = "Australia/Melbourne"
-            /// Historical timezone from zone1970.tab
-    case asiaPontianak = "Asia/Pontianak"
-            /// Current timezone from zonenow.tab
-    case asiaColombo = "Asia/Colombo"
-            /// Historical timezone from zone1970.tab
-    case asiaNicosia = "Asia/Nicosia"
-            /// Historical timezone from zone1970.tab
-    case asiaAqtau = "Asia/Aqtau"
-            /// Historical timezone from zone1970.tab
-    case americaKentuckyLouisville = "America/Kentucky/Louisville"
-            /// Historical timezone from zone1970.tab
-    case americaArgentinaBuenosAires = "America/Argentina/Buenos_Aires"
-            /// Historical timezone from zone1970.tab
-    case asiaOral = "Asia/Oral"
-            /// Current timezone from zonenow.tab
-    case asiaTokyo = "Asia/Tokyo"
+    case europeUlyanovsk = "Europe/Ulyanovsk"
             /// Historical timezone from zone1970.tab
     case americaEdmonton = "America/Edmonton"
             /// Historical timezone from zone1970.tab
-    case asiaNovokuznetsk = "Asia/Novokuznetsk"
-            /// Historical timezone from zone1970.tab
-    case asiaRiyadh = "Asia/Riyadh"
+    case pacificGuadalcanal = "Pacific/Guadalcanal"
             /// Current timezone from zonenow.tab
-    case americaStJohns = "America/St_Johns"
+    case africaLagos = "Africa/Lagos"
             /// Historical timezone from zone1970.tab
-    case americaChihuahua = "America/Chihuahua"
+    case europeKyiv = "Europe/Kyiv"
             /// Current timezone from zonenow.tab
-    case africaNairobi = "Africa/Nairobi"
+    case pacificEaster = "Pacific/Easter"
             /// Historical timezone from zone1970.tab
-    case americaBahia = "America/Bahia"
+    case americaJuneau = "America/Juneau"
             /// Current timezone from zonenow.tab
-    case pacificAuckland = "Pacific/Auckland"
+    case pacificGambier = "Pacific/Gambier"
             /// Historical timezone from zone1970.tab
-    case asiaHovd = "Asia/Hovd"
-            /// Current timezone from zonenow.tab
-    case pacificTongatapu = "Pacific/Tongatapu"
+    case americaCambridgeBay = "America/Cambridge_Bay"
             /// Historical timezone from zone1970.tab
-    case australiaHobart = "Australia/Hobart"
-            /// Historical timezone from zone1970.tab
-    case americaIndianaKnox = "America/Indiana/Knox"
-            /// Historical timezone from zone1970.tab
-    case americaArgentinaUshuaia = "America/Argentina/Ushuaia"
-            /// Historical timezone from zone1970.tab
-    case americaArgentinaCatamarca = "America/Argentina/Catamarca"
-            /// Current timezone from zonenow.tab
-    case europeDublin = "Europe/Dublin"
-            /// Current timezone from zonenow.tab
-    case americaMiquelon = "America/Miquelon"
-            /// Historical timezone from zone1970.tab
-    case asiaIrkutsk = "Asia/Irkutsk"
-            /// Current timezone from zonenow.tab
-    case pacificPitcairn = "Pacific/Pitcairn"
-            /// Current timezone from zonenow.tab
-    case americaPhoenix = "America/Phoenix"
-            /// Current timezone from zonenow.tab
-    case asiaBeirut = "Asia/Beirut"
-            /// Current timezone from zonenow.tab
-    case pacificGuam = "Pacific/Guam"
-            /// Historical timezone from zone1970.tab
-    case asiaYekaterinburg = "Asia/Yekaterinburg"
-            /// Historical timezone from zone1970.tab
-    case americaDetroit = "America/Detroit"
-            /// Current timezone from zonenow.tab
-    case americaJamaica = "America/Jamaica"
-            /// Current timezone from zonenow.tab
-    case pacificNorfolk = "Pacific/Norfolk"
-            /// Historical timezone from zone1970.tab
-    case americaIndianaPetersburg = "America/Indiana/Petersburg"
-            /// Historical timezone from zone1970.tab
-    case americaIndianaIndianapolis = "America/Indiana/Indianapolis"
-            /// Current timezone from zonenow.tab
-    case americaDenver = "America/Denver"
-            /// Historical timezone from zone1970.tab
-    case antarcticaRothera = "Antarctica/Rothera"
-            /// Current timezone from zonenow.tab
-    case europeIstanbul = "Europe/Istanbul"
-            /// Historical timezone from zone1970.tab
-    case americaVancouver = "America/Vancouver"
-            /// Current timezone from zonenow.tab
-    case asiaDhaka = "Asia/Dhaka"
-            /// Historical timezone from zone1970.tab
-    case americaArgentinaLaRioja = "America/Argentina/La_Rioja"
-            /// Historical timezone from zone1970.tab
-    case americaBelem = "America/Belem"
-            /// Current timezone from zonenow.tab
-    case asiaManila = "Asia/Manila"
-            /// Current timezone from zonenow.tab
-    case africaCairo = "Africa/Cairo"
-            /// Current timezone from zonenow.tab
-    case pacificGalapagos = "Pacific/Galapagos"
-            /// Current timezone from zonenow.tab
-    case asiaShanghai = "Asia/Shanghai"
-            /// Current timezone from zonenow.tab
-    case antarcticaTroll = "Antarctica/Troll"
-            /// Historical timezone from zone1970.tab
-    case americaArgentinaTucuman = "America/Argentina/Tucuman"
-            /// Historical timezone from zone1970.tab
-    case europeKirov = "Europe/Kirov"
-            /// Historical timezone from zone1970.tab
-    case europeKaliningrad = "Europe/Kaliningrad"
-            /// Current timezone from zonenow.tab
-    case asiaKabul = "Asia/Kabul"
-            /// Historical timezone from zone1970.tab
-    case americaMerida = "America/Merida"
-            /// Current timezone from zonenow.tab
-    case africaAlgiers = "Africa/Algiers"
-            /// Historical timezone from zone1970.tab
-    case asiaKhandyga = "Asia/Khandyga"
-            /// Historical timezone from zone1970.tab
-    case europeUlyanovsk = "Europe/Ulyanovsk"
+    case asiaAqtau = "Asia/Aqtau"
             /// Current timezone from zonenow.tab
     case pacificChatham = "Pacific/Chatham"
             /// Historical timezone from zone1970.tab
-    case americaOjinaga = "America/Ojinaga"
+    case asiaOral = "Asia/Oral"
             /// Historical timezone from zone1970.tab
-    case americaIndianaMarengo = "America/Indiana/Marengo"
+    case americaWinnipeg = "America/Winnipeg"
             /// Historical timezone from zone1970.tab
-    case americaSantarem = "America/Santarem"
+    case asiaUstnera = "Asia/Ust-Nera"
             /// Historical timezone from zone1970.tab
-    case americaArgentinaSanLuis = "America/Argentina/San_Luis"
+    case europeKaliningrad = "Europe/Kaliningrad"
             /// Historical timezone from zone1970.tab
-    case europeSaratov = "Europe/Saratov"
+    case antarcticaRothera = "Antarctica/Rothera"
             /// Current timezone from zonenow.tab
-    case americaNuuk = "America/Nuuk"
+    case europeLisbon = "Europe/Lisbon"
             /// Historical timezone from zone1970.tab
-    case americaToronto = "America/Toronto"
+    case asiaHoChiMinh = "Asia/Ho_Chi_Minh"
+            /// Historical timezone from zone1970.tab
+    case pacificKwajalein = "Pacific/Kwajalein"
+            /// Historical timezone from zone1970.tab
+    case asiaYekaterinburg = "Asia/Yekaterinburg"
+            /// Current timezone from zonenow.tab
+    case pacificTahiti = "Pacific/Tahiti"
+            /// Current timezone from zonenow.tab
+    case americaLosAngeles = "America/Los_Angeles"
+            /// Current timezone from zonenow.tab
+    case atlanticCapeVerde = "Atlantic/Cape_Verde"
+            /// Current timezone from zonenow.tab
+    case asiaMakassar = "Asia/Makassar"
+            /// Current timezone from zonenow.tab
+    case pacificGuam = "Pacific/Guam"
+            /// Historical timezone from zone1970.tab
+    case americaOjinaga = "America/Ojinaga"
+            /// Current timezone from zonenow.tab
+    case europeDublin = "Europe/Dublin"
             /// Current timezone from zonenow.tab
     case pacificBougainville = "Pacific/Bougainville"
             /// Historical timezone from zone1970.tab
-    case americaPuntaArenas = "America/Punta_Arenas"
+    case asiaKhandyga = "Asia/Khandyga"
+            /// Current timezone from zonenow.tab
+    case asiaKolkata = "Asia/Kolkata"
+            /// Current timezone from zonenow.tab
+    case pacificPitcairn = "Pacific/Pitcairn"
             /// Historical timezone from zone1970.tab
-    case europeVolgograd = "Europe/Volgograd"
+    case europeSimferopol = "Europe/Simferopol"
+            /// Current timezone from zonenow.tab
+    case australiaDarwin = "Australia/Darwin"
+            /// Historical timezone from zone1970.tab
+    case americaCancun = "America/Cancun"
+            /// Current timezone from zonenow.tab
+    case africaTripoli = "Africa/Tripoli"
+            /// Current timezone from zonenow.tab
+    case americaJamaica = "America/Jamaica"
+            /// Current timezone from zonenow.tab
+    case europeAthens = "Europe/Athens"
+            /// Current timezone from zonenow.tab
+    case asiaKamchatka = "Asia/Kamchatka"
+            /// Historical timezone from zone1970.tab
+    case americaMazatlan = "America/Mazatlan"
+            /// Historical timezone from zone1970.tab
+    case americaNorthDakotaCenter = "America/North_Dakota/Center"
             /// Current timezone from zonenow.tab
     case americaSantoDomingo = "America/Santo_Domingo"
             /// Current timezone from zonenow.tab
-    case europeLisbon = "Europe/Lisbon"
+    case americaNuuk = "America/Nuuk"
+            /// Historical timezone from zone1970.tab
+    case americaArgentinaUshuaia = "America/Argentina/Ushuaia"
+            /// Historical timezone from zone1970.tab
+    case americaAraguaina = "America/Araguaina"
+            /// Historical timezone from zone1970.tab
+    case atlanticMadeira = "Atlantic/Madeira"
             /// Current timezone from zonenow.tab
-    case americaChicago = "America/Chicago"
+    case australiaEucla = "Australia/Eucla"
+            /// Historical timezone from zone1970.tab
+    case americaResolute = "America/Resolute"
+            /// Historical timezone from zone1970.tab
+    case americaIndianaTellCity = "America/Indiana/Tell_City"
+            /// Historical timezone from zone1970.tab
+    case pacificPortMoresby = "Pacific/Port_Moresby"
+            /// Historical timezone from zone1970.tab
+    case americaThule = "America/Thule"
             /// Current timezone from zonenow.tab
-    case africaJohannesburg = "Africa/Johannesburg"
+    case americaSaoPaulo = "America/Sao_Paulo"
+            /// Current timezone from zonenow.tab
+    case asiaKabul = "Asia/Kabul"
+            /// Historical timezone from zone1970.tab
+    case asiaSamarkand = "Asia/Samarkand"
+            /// Historical timezone from zone1970.tab
+    case americaNorthDakotaBeulah = "America/North_Dakota/Beulah"
+            /// Current timezone from zonenow.tab
+    case americaDenver = "America/Denver"
+            /// Current timezone from zonenow.tab
+    case americaStJohns = "America/St_Johns"
+            /// Historical timezone from zone1970.tab
+    case americaPuntaArenas = "America/Punta_Arenas"
+            /// Historical timezone from zone1970.tab
+    case americaCuiaba = "America/Cuiaba"
+            /// Historical timezone from zone1970.tab
+    case antarcticaPalmer = "Antarctica/Palmer"
+            /// Current timezone from zonenow.tab
+    case americaAnchorage = "America/Anchorage"
+            /// Current timezone from zonenow.tab
+    case australiaSydney = "Australia/Sydney"
+            /// Historical timezone from zone1970.tab
+    case americaIqaluit = "America/Iqaluit"
+            /// Historical timezone from zone1970.tab
+    case asiaRiyadh = "Asia/Riyadh"
+            /// Historical timezone from zone1970.tab
+    case asiaIrkutsk = "Asia/Irkutsk"
+            /// Historical timezone from zone1970.tab
+    case australiaBrokenHill = "Australia/Broken_Hill"
+            /// Historical timezone from zone1970.tab
+    case europeAstrakhan = "Europe/Astrakhan"
+            /// Current timezone from zonenow.tab
+    case americaPhoenix = "America/Phoenix"
+            /// Historical timezone from zone1970.tab
+    case americaMenominee = "America/Menominee"
+            /// Historical timezone from zone1970.tab
+    case americaHermosillo = "America/Hermosillo"
+            /// Current timezone from zonenow.tab
+    case asiaKarachi = "Asia/Karachi"
+            /// Current timezone from zonenow.tab
+    case americaNoronha = "America/Noronha"
+            /// Current timezone from zonenow.tab
+    case australiaPerth = "Australia/Perth"
+            /// Historical timezone from zone1970.tab
+    case americaGuayaquil = "America/Guayaquil"
+            /// Historical timezone from zone1970.tab
+    case americaArgentinaSalta = "America/Argentina/Salta"
+            /// Current timezone from zonenow.tab
+    case asiaJayapura = "Asia/Jayapura"
+            /// Current timezone from zonenow.tab
+    case americaHalifax = "America/Halifax"
+            /// Current timezone from zonenow.tab
+    case asiaTashkent = "Asia/Tashkent"
+            /// Current timezone from zonenow.tab
+    case asiaChita = "Asia/Chita"
+            /// Historical timezone from zone1970.tab
+    case americaSitka = "America/Sitka"
+            /// Current timezone from zonenow.tab
+    case pacificKiritimati = "Pacific/Kiritimati"
+            /// Historical timezone from zone1970.tab
+    case americaSantarem = "America/Santarem"
+            /// Historical timezone from zone1970.tab
+    case pacificKanton = "Pacific/Kanton"
+            /// Historical timezone from zone1970.tab
+    case americaTijuana = "America/Tijuana"
+            /// Historical timezone from zone1970.tab
+    case asiaQostanay = "Asia/Qostanay"
+            /// Historical timezone from zone1970.tab
+    case americaNome = "America/Nome"
+            /// Current timezone from zonenow.tab
+    case americaHavana = "America/Havana"
+            /// Current timezone from zonenow.tab
+    case americaLima = "America/Lima"
+            /// Historical timezone from zone1970.tab
+    case pacificKosrae = "Pacific/Kosrae"
+            /// Historical timezone from zone1970.tab
+    case atlanticCanary = "Atlantic/Canary"
+            /// Historical timezone from zone1970.tab
+    case americaBelem = "America/Belem"
+            /// Current timezone from zonenow.tab
+    case africaNairobi = "Africa/Nairobi"
             /// Historical timezone from zone1970.tab
     case asiaNovosibirsk = "Asia/Novosibirsk"
             /// Historical timezone from zone1970.tab
+    case americaManaus = "America/Manaus"
+            /// Current timezone from zonenow.tab
+    case europeLondon = "Europe/London"
+            /// Current timezone from zonenow.tab
+    case pacificTongatapu = "Pacific/Tongatapu"
+            /// Historical timezone from zone1970.tab
+    case americaCoyhaique = "America/Coyhaique"
+            /// Historical timezone from zone1970.tab
+    case americaIndianaPetersburg = "America/Indiana/Petersburg"
+            /// Current timezone from zonenow.tab
+    case americaAdak = "America/Adak"
+            /// Current timezone from zonenow.tab
+    case asiaSingapore = "Asia/Singapore"
+            /// Historical timezone from zone1970.tab
+    case asiaYakutsk = "Asia/Yakutsk"
+            /// Current timezone from zonenow.tab
+    case asiaYangon = "Asia/Yangon"
+            /// Current timezone from zonenow.tab
+    case asiaJerusalem = "Asia/Jerusalem"
+            /// Historical timezone from zone1970.tab
+    case antarcticaVostok = "Antarctica/Vostok"
+            /// Historical timezone from zone1970.tab
     case antarcticaMacquarie = "Antarctica/Macquarie"
             /// Historical timezone from zone1970.tab
-    case pacificKanton = "Pacific/Kanton"
+    case americaCampoGrande = "America/Campo_Grande"
             /// Current timezone from zonenow.tab
-    case asiaKarachi = "Asia/Karachi"
+    case americaSantiago = "America/Santiago"
             /// Historical timezone from zone1970.tab
-    case americaArgentinaSalta = "America/Argentina/Salta"
+    case antarcticaCasey = "Antarctica/Casey"
+            /// Current timezone from zonenow.tab
+    case africaCairo = "Africa/Cairo"
+            /// Current timezone from zonenow.tab
+    case europeParis = "Europe/Paris"
+            /// Historical timezone from zone1970.tab
+    case asiaAtyrau = "Asia/Atyrau"
+            /// Historical timezone from zone1970.tab
+    case antarcticaMawson = "Antarctica/Mawson"
+            /// Historical timezone from zone1970.tab
+    case americaArgentinaCordoba = "America/Argentina/Cordoba"
+            /// Current timezone from zonenow.tab
+    case asiaDhaka = "Asia/Dhaka"
+            /// Historical timezone from zone1970.tab
+    case americaMerida = "America/Merida"
+            /// Historical timezone from zone1970.tab
+    case asiaNovokuznetsk = "Asia/Novokuznetsk"
+            /// Current timezone from zonenow.tab
+    case asiaColombo = "Asia/Colombo"
+            /// Historical timezone from zone1970.tab
+    case asiaSrednekolymsk = "Asia/Srednekolymsk"
+            /// Historical timezone from zone1970.tab
+    case americaArgentinaBuenosAires = "America/Argentina/Buenos_Aires"
+            /// Historical timezone from zone1970.tab
+    case americaBahiaBanderas = "America/Bahia_Banderas"
+            /// Historical timezone from zone1970.tab
+    case americaFortaleza = "America/Fortaleza"
+            /// Historical timezone from zone1970.tab
+    case asiaAqtobe = "Asia/Aqtobe"
+            /// Current timezone from zonenow.tab
+    case africaCasablanca = "Africa/Casablanca"
+            /// Current timezone from zonenow.tab
+    case asiaGaza = "Asia/Gaza"
+            /// Current timezone from zonenow.tab
+    case americaChicago = "America/Chicago"
+            /// Current timezone from zonenow.tab
+    case atlanticAzores = "Atlantic/Azores"
+            /// Current timezone from zonenow.tab
+    case americaCaracas = "America/Caracas"
+            /// Historical timezone from zone1970.tab
+    case americaRioBranco = "America/Rio_Branco"
+            /// Current timezone from zonenow.tab
+    case pacificMarquesas = "Pacific/Marquesas"
+            /// Historical timezone from zone1970.tab
+    case americaBoaVista = "America/Boa_Vista"
+            /// Current timezone from zonenow.tab
+    case asiaTehran = "Asia/Tehran"
+            /// Historical timezone from zone1970.tab
+    case americaArgentinaSanJuan = "America/Argentina/San_Juan"
+            /// Historical timezone from zone1970.tab
+    case asiaUrumqi = "Asia/Urumqi"
+            /// Historical timezone from zone1970.tab
+    case americaKentuckyLouisville = "America/Kentucky/Louisville"
+            /// Historical timezone from zone1970.tab
+    case americaVancouver = "America/Vancouver"
+            /// Historical timezone from zone1970.tab
+    case asiaHebron = "Asia/Hebron"
+            /// Historical timezone from zone1970.tab
+    case americaIndianaVevay = "America/Indiana/Vevay"
+            /// Historical timezone from zone1970.tab
+    case americaDanmarkshavn = "America/Danmarkshavn"
+            /// Historical timezone from zone1970.tab
+    case asiaNicosia = "Asia/Nicosia"
+            /// Historical timezone from zone1970.tab
+    case americaSwiftCurrent = "America/Swift_Current"
+            /// Historical timezone from zone1970.tab
+    case asiaAnadyr = "Asia/Anadyr"
+            /// Historical timezone from zone1970.tab
+    case asiaPontianak = "Asia/Pontianak"
+            /// Historical timezone from zone1970.tab
+    case americaIndianaWinamac = "America/Indiana/Winamac"
+            /// Historical timezone from zone1970.tab
+    case americaMonterrey = "America/Monterrey"
+            /// Historical timezone from zone1970.tab
+    case europeBerlin = "Europe/Berlin"
+            /// Current timezone from zonenow.tab
+    case pacificAuckland = "Pacific/Auckland"
+            /// Historical timezone from zone1970.tab
+    case americaDawson = "America/Dawson"
+            /// Historical timezone from zone1970.tab
+    case americaArgentinaCatamarca = "America/Argentina/Catamarca"
+            /// Current timezone from zonenow.tab
+    case australiaBrisbane = "Australia/Brisbane"
+            /// Historical timezone from zone1970.tab
+    case americaBoise = "America/Boise"
+            /// Historical timezone from zone1970.tab
+    case asiaKuching = "Asia/Kuching"
+            /// Historical timezone from zone1970.tab
+    case asiaAlmaty = "Asia/Almaty"
+            /// Current timezone from zonenow.tab
+    case asiaDubai = "Asia/Dubai"
+            /// Current timezone from zonenow.tab
+    case asiaManila = "Asia/Manila"
+            /// Historical timezone from zone1970.tab
+    case americaGlaceBay = "America/Glace_Bay"
+            /// Historical timezone from zone1970.tab
+    case americaMatamoros = "America/Matamoros"
+            /// Current timezone from zonenow.tab
+    case europeChisinau = "Europe/Chisinau"
+            /// Historical timezone from zone1970.tab
+    case asiaHovd = "Asia/Hovd"
+            /// Current timezone from zonenow.tab
+    case europeIstanbul = "Europe/Istanbul"
+            /// Current timezone from zonenow.tab
+    case asiaShanghai = "Asia/Shanghai"
+            /// Historical timezone from zone1970.tab
+    case africaCeuta = "Africa/Ceuta"
+            /// Historical timezone from zone1970.tab
+    case asiaSakhalin = "Asia/Sakhalin"
+            /// Historical timezone from zone1970.tab
+    case americaBahia = "America/Bahia"
+            /// Historical timezone from zone1970.tab
+    case americaGooseBay = "America/Goose_Bay"
+            /// Historical timezone from zone1970.tab
+    case americaKentuckyMonticello = "America/Kentucky/Monticello"
+            /// Historical timezone from zone1970.tab
+    case americaScoresbysund = "America/Scoresbysund"
+            /// Historical timezone from zone1970.tab
+    case europeKirov = "Europe/Kirov"
+            /// Historical timezone from zone1970.tab
+    case americaIndianaVincennes = "America/Indiana/Vincennes"
+            /// Current timezone from zonenow.tab
+    case asiaBangkok = "Asia/Bangkok"
+            /// Historical timezone from zone1970.tab
+    case americaArgentinaRioGallegos = "America/Argentina/Rio_Gallegos"
+            /// Historical timezone from zone1970.tab
+    case americaPuertoRico = "America/Puerto_Rico"
+            /// Historical timezone from zone1970.tab
+    case americaArgentinaJujuy = "America/Argentina/Jujuy"
+            /// Historical timezone from zone1970.tab
+    case australiaLindeman = "Australia/Lindeman"
+            /// Historical timezone from zone1970.tab
+    case americaRecife = "America/Recife"
+            /// Historical timezone from zone1970.tab
+    case europeSamara = "Europe/Samara"
+            /// Historical timezone from zone1970.tab
+    case americaIndianaMarengo = "America/Indiana/Marengo"
+            /// Historical timezone from zone1970.tab
+    case americaMaceio = "America/Maceio"
+            /// Historical timezone from zone1970.tab
+    case europeZurich = "Europe/Zurich"
+            /// Historical timezone from zone1970.tab
+    case asiaMagadan = "Asia/Magadan"
+            /// Historical timezone from zone1970.tab
+    case americaIndianaKnox = "America/Indiana/Knox"
+            /// Current timezone from zonenow.tab
+    case pacificHonolulu = "Pacific/Honolulu"
+            /// Historical timezone from zone1970.tab
+    case europeMadrid = "Europe/Madrid"
+            /// Historical timezone from zone1970.tab
+    case americaNorthDakotaNewSalem = "America/North_Dakota/New_Salem"
+            /// Historical timezone from zone1970.tab
+    case pacificTarawa = "Pacific/Tarawa"
+            /// Historical timezone from zone1970.tab
+    case americaIndianaIndianapolis = "America/Indiana/Indianapolis"
+            /// Current timezone from zonenow.tab
+    case africaAlgiers = "Africa/Algiers"
+            /// Historical timezone from zone1970.tab
+    case asiaKrasnoyarsk = "Asia/Krasnoyarsk"
+            /// Historical timezone from zone1970.tab
+    case americaArgentinaSanLuis = "America/Argentina/San_Luis"
+            /// Historical timezone from zone1970.tab
+    case americaDetroit = "America/Detroit"
+            /// Historical timezone from zone1970.tab
+    case americaMoncton = "America/Moncton"
+            /// Current timezone from zonenow.tab
+    case pacificNorfolk = "Pacific/Norfolk"
+            /// Current timezone from zonenow.tab
+    case pacificGalapagos = "Pacific/Galapagos"
+            /// Historical timezone from zone1970.tab
+    case americaYakutat = "America/Yakutat"
+            /// Historical timezone from zone1970.tab
+    case americaToronto = "America/Toronto"
+            /// Historical timezone from zone1970.tab
+    case americaPanama = "America/Panama"
+            /// Historical timezone from zone1970.tab
+    case americaEirunepe = "America/Eirunepe"
+            /// Historical timezone from zone1970.tab
+    case americaRegina = "America/Regina"
+            /// Current timezone from zonenow.tab
+    case asiaBeirut = "Asia/Beirut"
+            /// Historical timezone from zone1970.tab
+    case australiaMelbourne = "Australia/Melbourne"
+            /// Current timezone from zonenow.tab
+    case asiaKathmandu = "Asia/Kathmandu"
+            /// Current timezone from zonenow.tab
+    case asiaSeoul = "Asia/Seoul"
+            /// Historical timezone from zone1970.tab
+    case asiaOmsk = "Asia/Omsk"
+            /// Historical timezone from zone1970.tab
+    case americaCiudadJuarez = "America/Ciudad_Juarez"
+            /// Historical timezone from zone1970.tab
+    case asiaFamagusta = "Asia/Famagusta"
+            /// Historical timezone from zone1970.tab
+    case americaInuvik = "America/Inuvik"
+            /// Historical timezone from zone1970.tab
+    case americaChihuahua = "America/Chihuahua"
+            /// Current timezone from zonenow.tab
+    case pacificPagoPago = "Pacific/Pago_Pago"
+            /// Historical timezone from zone1970.tab
+    case asiaBarnaul = "Asia/Barnaul"
+            /// Historical timezone from zone1970.tab
+    case asiaUlaanbaatar = "Asia/Ulaanbaatar"
+            /// Current timezone from zonenow.tab
+    case americaMiquelon = "America/Miquelon"
+            /// Historical timezone from zone1970.tab
+    case antarcticaDavis = "Antarctica/Davis"
+            /// Historical timezone from zone1970.tab
+    case americaMetlakatla = "America/Metlakatla"
+            /// Current timezone from zonenow.tab
+    case africaJohannesburg = "Africa/Johannesburg"
+            /// Historical timezone from zone1970.tab
+    case australiaHobart = "Australia/Hobart"
+            /// Historical timezone from zone1970.tab
+    case europeSaratov = "Europe/Saratov"
+            /// Historical timezone from zone1970.tab
+    case europeVolgograd = "Europe/Volgograd"
+            /// Current timezone from zonenow.tab
+    case asiaHongKong = "Asia/Hong_Kong"
+            /// Historical timezone from zone1970.tab
+    case americaArgentinaLaRioja = "America/Argentina/La_Rioja"
+            /// Historical timezone from zone1970.tab
+    case americaArgentinaTucuman = "America/Argentina/Tucuman"
+            /// Historical timezone from zone1970.tab
+    case americaFortNelson = "America/Fort_Nelson"
+            /// Current timezone from zonenow.tab
+    case africaAbidjan = "Africa/Abidjan"
+            /// Current timezone from zonenow.tab
+    case americaNewYork = "America/New_York"
+            /// Current timezone from zonenow.tab
+    case africaMaputo = "Africa/Maputo"
+            /// Current timezone from zonenow.tab
+    case australiaAdelaide = "Australia/Adelaide"
+            /// Current timezone from zonenow.tab
+    case americaMexicoCity = "America/Mexico_City"
+            /// Current timezone from zonenow.tab
+    case asiaVladivostok = "Asia/Vladivostok"
+            /// Historical timezone from zone1970.tab
+    case asiaQyzylorda = "Asia/Qyzylorda"
+            /// Historical timezone from zone1970.tab
+    case americaArgentinaMendoza = "America/Argentina/Mendoza"
+            /// Historical timezone from zone1970.tab
+    case asiaTomsk = "Asia/Tomsk"
+            /// Current timezone from zonenow.tab
+    case asiaJakarta = "Asia/Jakarta"
     
     /// Returns whether this timezone is from zonenow.tab or zone1970.tab
     public var source: Source {
         switch self {
-            case .asiaChita: return .now
-                case .americaFortNelson: return .zone1970
-                case .americaGuayaquil: return .zone1970
-                case .asiaQyzylorda: return .zone1970
-                case .asiaYakutsk: return .zone1970
-                case .europeSimferopol: return .zone1970
-                case .asiaJakarta: return .now
-                case .australiaBrokenHill: return .zone1970
-                case .europeSamara: return .zone1970
-                case .americaSaoPaulo: return .now
-                case .asiaSeoul: return .now
-                case .americaIndianaVincennes: return .zone1970
-                case .asiaSamarkand: return .zone1970
-                case .australiaAdelaide: return .now
-                case .asiaKamchatka: return .now
-                case .americaDawsonCreek: return .zone1970
-                case .africaCeuta: return .zone1970
-                case .asiaAlmaty: return .zone1970
-                case .americaArgentinaMendoza: return .zone1970
-                case .americaBoise: return .zone1970
-                case .europeAstrakhan: return .zone1970
-                case .americaNorthDakotaCenter: return .zone1970
-                case .australiaPerth: return .now
-                case .asiaBarnaul: return .zone1970
-                case .americaMoncton: return .zone1970
-                case .asiaSingapore: return .now
-                case .pacificHonolulu: return .now
-                case .asiaHoChiMinh: return .zone1970
-                case .europeChisinau: return .now
-                case .australiaLordHowe: return .now
-                case .americaGlaceBay: return .zone1970
-                case .asiaTehran: return .now
-                case .americaLosAngeles: return .now
-                case .americaMazatlan: return .zone1970
-                case .americaManaus: return .zone1970
-                case .antarcticaDavis: return .zone1970
-                case .americaRegina: return .zone1970
-                case .americaBahiaBanderas: return .zone1970
-                case .americaArgentinaJujuy: return .zone1970
-                case .americaNorthDakotaBeulah: return .zone1970
-                case .americaCaracas: return .now
-                case .europeAthens: return .now
-                case .asiaFamagusta: return .zone1970
-                case .asiaTashkent: return .now
-                case .indianMaldives: return .zone1970
-                case .americaNewYork: return .now
-                case .americaYakutat: return .zone1970
-                case .americaHavana: return .now
-                case .pacificTahiti: return .now
-                case .americaCancun: return .zone1970
-                case .africaAbidjan: return .now
-                case .antarcticaMawson: return .zone1970
-                case .americaIqaluit: return .zone1970
-                case .asiaTomsk: return .zone1970
-                case .asiaQostanay: return .zone1970
-                case .americaAraguaina: return .zone1970
-                case .americaHermosillo: return .zone1970
-                case .europeZurich: return .zone1970
-                case .asiaAtyrau: return .zone1970
-                case .europeBerlin: return .zone1970
-                case .americaInuvik: return .zone1970
-                case .americaLima: return .now
-                case .australiaDarwin: return .now
-                case .asiaJerusalem: return .now
-                case .americaArgentinaRioGallegos: return .zone1970
-                case .americaNome: return .zone1970
-                case .asiaBangkok: return .now
-                case .americaMaceio: return .zone1970
-                case .asiaJayapura: return .now
-                case .americaMatamoros: return .zone1970
-                case .americaIndianaTellCity: return .zone1970
-                case .asiaAnadyr: return .zone1970
-                case .americaArgentinaCordoba: return .zone1970
-                case .americaKentuckyMonticello: return .zone1970
-                case .pacificPortMoresby: return .zone1970
-                case .asiaSrednekolymsk: return .zone1970
-                case .americaMenominee: return .zone1970
-                case .asiaOmsk: return .zone1970
-                case .africaMaputo: return .now
-                case .antarcticaPalmer: return .zone1970
-                case .americaGooseBay: return .zone1970
-                case .americaNorthDakotaNewSalem: return .zone1970
-                case .africaLagos: return .now
-                case .americaWhitehorse: return .zone1970
-                case .americaResolute: return .zone1970
-                case .asiaKuching: return .zone1970
-                case .atlanticCanary: return .zone1970
-                case .asiaHebron: return .zone1970
-                case .asiaDubai: return .now
-                case .australiaLindeman: return .zone1970
-                case .americaHalifax: return .now
-                case .atlanticMadeira: return .zone1970
-                case .americaSitka: return .zone1970
-                case .europeMadrid: return .zone1970
-                case .pacificNiue: return .now
-                case .pacificGambier: return .now
-                case .australiaEucla: return .now
-                case .americaRecife: return .zone1970
-                case .americaRioBranco: return .zone1970
-                case .asiaUlaanbaatar: return .zone1970
-                case .americaCuiaba: return .zone1970
-                case .americaRankinInlet: return .zone1970
-                case .australiaBrisbane: return .now
-                case .americaAdak: return .now
-                case .americaMetlakatla: return .zone1970
-                case .americaMonterrey: return .zone1970
-                case .americaAnchorage: return .now
-                case .europeMoscow: return .now
-                case .pacificEaster: return .now
-                case .americaFortaleza: return .zone1970
-                case .asiaMakassar: return .now
-                case .americaSwiftCurrent: return .zone1970
-                case .pacificKosrae: return .zone1970
-                case .australiaSydney: return .now
-                case .americaThule: return .zone1970
-                case .americaNoronha: return .now
-                case .pacificKiritimati: return .now
-                case .asiaKolkata: return .now
-                case .americaCiudadJuarez: return .zone1970
-                case .asiaUstnera: return .zone1970
-                case .americaArgentinaSanJuan: return .zone1970
-                case .asiaKathmandu: return .now
-                case .atlanticCapeVerde: return .now
-                case .europeKyiv: return .zone1970
-                case .africaTripoli: return .now
-                case .asiaGaza: return .now
-                case .asiaVladivostok: return .now
-                case .europeParis: return .now
-                case .americaCampoGrande: return .zone1970
-                case .americaCambridgeBay: return .zone1970
-                case .americaPortoVelho: return .zone1970
-                case .americaBoaVista: return .zone1970
-                case .americaEirunepe: return .zone1970
-                case .atlanticAzores: return .now
-                case .africaCasablanca: return .now
-                case .asiaKrasnoyarsk: return .zone1970
-                case .americaDanmarkshavn: return .zone1970
-                case .asiaHongKong: return .now
-                case .americaDawson: return .zone1970
-                case .asiaYangon: return .now
-                case .americaJuneau: return .zone1970
-                case .americaPuertoRico: return .zone1970
-                case .antarcticaVostok: return .zone1970
-                case .pacificPagoPago: return .now
-                case .americaMexicoCity: return .now
-                case .asiaMagadan: return .zone1970
-                case .americaIndianaWinamac: return .zone1970
-                case .americaTijuana: return .zone1970
-                case .antarcticaCasey: return .zone1970
-                case .asiaUrumqi: return .zone1970
-                case .americaWinnipeg: return .zone1970
-                case .americaPanama: return .zone1970
-                case .americaIndianaVevay: return .zone1970
-                case .pacificTarawa: return .zone1970
-                case .americaScoresbysund: return .zone1970
-                case .europeLondon: return .now
-                case .pacificMarquesas: return .now
-                case .pacificKwajalein: return .zone1970
-                case .pacificGuadalcanal: return .zone1970
-                case .asiaAqtobe: return .zone1970
-                case .americaSantiago: return .now
-                case .asiaSakhalin: return .zone1970
-                case .australiaMelbourne: return .zone1970
-                case .asiaPontianak: return .zone1970
-                case .asiaColombo: return .now
-                case .asiaNicosia: return .zone1970
-                case .asiaAqtau: return .zone1970
-                case .americaKentuckyLouisville: return .zone1970
-                case .americaArgentinaBuenosAires: return .zone1970
-                case .asiaOral: return .zone1970
+            case .antarcticaTroll: return .now
                 case .asiaTokyo: return .now
-                case .americaEdmonton: return .zone1970
-                case .asiaNovokuznetsk: return .zone1970
-                case .asiaRiyadh: return .zone1970
-                case .americaStJohns: return .now
-                case .americaChihuahua: return .zone1970
-                case .africaNairobi: return .now
-                case .americaBahia: return .zone1970
-                case .pacificAuckland: return .now
-                case .asiaHovd: return .zone1970
-                case .pacificTongatapu: return .now
-                case .australiaHobart: return .zone1970
-                case .americaIndianaKnox: return .zone1970
-                case .americaArgentinaUshuaia: return .zone1970
-                case .americaArgentinaCatamarca: return .zone1970
-                case .europeDublin: return .now
-                case .americaMiquelon: return .now
-                case .asiaIrkutsk: return .zone1970
-                case .pacificPitcairn: return .now
-                case .americaPhoenix: return .now
-                case .asiaBeirut: return .now
-                case .pacificGuam: return .now
-                case .asiaYekaterinburg: return .zone1970
-                case .americaDetroit: return .zone1970
-                case .americaJamaica: return .now
-                case .pacificNorfolk: return .now
-                case .americaIndianaPetersburg: return .zone1970
-                case .americaIndianaIndianapolis: return .zone1970
-                case .americaDenver: return .now
-                case .antarcticaRothera: return .zone1970
-                case .europeIstanbul: return .now
-                case .americaVancouver: return .zone1970
-                case .asiaDhaka: return .now
-                case .americaArgentinaLaRioja: return .zone1970
-                case .americaBelem: return .zone1970
-                case .asiaManila: return .now
-                case .africaCairo: return .now
-                case .pacificGalapagos: return .now
-                case .asiaShanghai: return .now
-                case .antarcticaTroll: return .now
-                case .americaArgentinaTucuman: return .zone1970
-                case .europeKirov: return .zone1970
-                case .europeKaliningrad: return .zone1970
-                case .asiaKabul: return .now
-                case .americaMerida: return .zone1970
-                case .africaAlgiers: return .now
-                case .asiaKhandyga: return .zone1970
+                case .australiaLordHowe: return .now
+                case .pacificNiue: return .now
+                case .americaPortoVelho: return .zone1970
+                case .americaDawsonCreek: return .zone1970
+                case .americaWhitehorse: return .zone1970
+                case .europeMoscow: return .now
+                case .indianMaldives: return .zone1970
+                case .americaRankinInlet: return .zone1970
                 case .europeUlyanovsk: return .zone1970
+                case .americaEdmonton: return .zone1970
+                case .pacificGuadalcanal: return .zone1970
+                case .africaLagos: return .now
+                case .europeKyiv: return .zone1970
+                case .pacificEaster: return .now
+                case .americaJuneau: return .zone1970
+                case .pacificGambier: return .now
+                case .americaCambridgeBay: return .zone1970
+                case .asiaAqtau: return .zone1970
                 case .pacificChatham: return .now
-                case .americaOjinaga: return .zone1970
-                case .americaIndianaMarengo: return .zone1970
-                case .americaSantarem: return .zone1970
-                case .americaArgentinaSanLuis: return .zone1970
-                case .europeSaratov: return .zone1970
-                case .americaNuuk: return .now
-                case .americaToronto: return .zone1970
-                case .pacificBougainville: return .now
-                case .americaPuntaArenas: return .zone1970
-                case .europeVolgograd: return .zone1970
-                case .americaSantoDomingo: return .now
+                case .asiaOral: return .zone1970
+                case .americaWinnipeg: return .zone1970
+                case .asiaUstnera: return .zone1970
+                case .europeKaliningrad: return .zone1970
+                case .antarcticaRothera: return .zone1970
                 case .europeLisbon: return .now
-                case .americaChicago: return .now
-                case .africaJohannesburg: return .now
-                case .asiaNovosibirsk: return .zone1970
-                case .antarcticaMacquarie: return .zone1970
-                case .pacificKanton: return .zone1970
+                case .asiaHoChiMinh: return .zone1970
+                case .pacificKwajalein: return .zone1970
+                case .asiaYekaterinburg: return .zone1970
+                case .pacificTahiti: return .now
+                case .americaLosAngeles: return .now
+                case .atlanticCapeVerde: return .now
+                case .asiaMakassar: return .now
+                case .pacificGuam: return .now
+                case .americaOjinaga: return .zone1970
+                case .europeDublin: return .now
+                case .pacificBougainville: return .now
+                case .asiaKhandyga: return .zone1970
+                case .asiaKolkata: return .now
+                case .pacificPitcairn: return .now
+                case .europeSimferopol: return .zone1970
+                case .australiaDarwin: return .now
+                case .americaCancun: return .zone1970
+                case .africaTripoli: return .now
+                case .americaJamaica: return .now
+                case .europeAthens: return .now
+                case .asiaKamchatka: return .now
+                case .americaMazatlan: return .zone1970
+                case .americaNorthDakotaCenter: return .zone1970
+                case .americaSantoDomingo: return .now
+                case .americaNuuk: return .now
+                case .americaArgentinaUshuaia: return .zone1970
+                case .americaAraguaina: return .zone1970
+                case .atlanticMadeira: return .zone1970
+                case .australiaEucla: return .now
+                case .americaResolute: return .zone1970
+                case .americaIndianaTellCity: return .zone1970
+                case .pacificPortMoresby: return .zone1970
+                case .americaThule: return .zone1970
+                case .americaSaoPaulo: return .now
+                case .asiaKabul: return .now
+                case .asiaSamarkand: return .zone1970
+                case .americaNorthDakotaBeulah: return .zone1970
+                case .americaDenver: return .now
+                case .americaStJohns: return .now
+                case .americaPuntaArenas: return .zone1970
+                case .americaCuiaba: return .zone1970
+                case .antarcticaPalmer: return .zone1970
+                case .americaAnchorage: return .now
+                case .australiaSydney: return .now
+                case .americaIqaluit: return .zone1970
+                case .asiaRiyadh: return .zone1970
+                case .asiaIrkutsk: return .zone1970
+                case .australiaBrokenHill: return .zone1970
+                case .europeAstrakhan: return .zone1970
+                case .americaPhoenix: return .now
+                case .americaMenominee: return .zone1970
+                case .americaHermosillo: return .zone1970
                 case .asiaKarachi: return .now
+                case .americaNoronha: return .now
+                case .australiaPerth: return .now
+                case .americaGuayaquil: return .zone1970
                 case .americaArgentinaSalta: return .zone1970
+                case .asiaJayapura: return .now
+                case .americaHalifax: return .now
+                case .asiaTashkent: return .now
+                case .asiaChita: return .now
+                case .americaSitka: return .zone1970
+                case .pacificKiritimati: return .now
+                case .americaSantarem: return .zone1970
+                case .pacificKanton: return .zone1970
+                case .americaTijuana: return .zone1970
+                case .asiaQostanay: return .zone1970
+                case .americaNome: return .zone1970
+                case .americaHavana: return .now
+                case .americaLima: return .now
+                case .pacificKosrae: return .zone1970
+                case .atlanticCanary: return .zone1970
+                case .americaBelem: return .zone1970
+                case .africaNairobi: return .now
+                case .asiaNovosibirsk: return .zone1970
+                case .americaManaus: return .zone1970
+                case .europeLondon: return .now
+                case .pacificTongatapu: return .now
+                case .americaCoyhaique: return .zone1970
+                case .americaIndianaPetersburg: return .zone1970
+                case .americaAdak: return .now
+                case .asiaSingapore: return .now
+                case .asiaYakutsk: return .zone1970
+                case .asiaYangon: return .now
+                case .asiaJerusalem: return .now
+                case .antarcticaVostok: return .zone1970
+                case .antarcticaMacquarie: return .zone1970
+                case .americaCampoGrande: return .zone1970
+                case .americaSantiago: return .now
+                case .antarcticaCasey: return .zone1970
+                case .africaCairo: return .now
+                case .europeParis: return .now
+                case .asiaAtyrau: return .zone1970
+                case .antarcticaMawson: return .zone1970
+                case .americaArgentinaCordoba: return .zone1970
+                case .asiaDhaka: return .now
+                case .americaMerida: return .zone1970
+                case .asiaNovokuznetsk: return .zone1970
+                case .asiaColombo: return .now
+                case .asiaSrednekolymsk: return .zone1970
+                case .americaArgentinaBuenosAires: return .zone1970
+                case .americaBahiaBanderas: return .zone1970
+                case .americaFortaleza: return .zone1970
+                case .asiaAqtobe: return .zone1970
+                case .africaCasablanca: return .now
+                case .asiaGaza: return .now
+                case .americaChicago: return .now
+                case .atlanticAzores: return .now
+                case .americaCaracas: return .now
+                case .americaRioBranco: return .zone1970
+                case .pacificMarquesas: return .now
+                case .americaBoaVista: return .zone1970
+                case .asiaTehran: return .now
+                case .americaArgentinaSanJuan: return .zone1970
+                case .asiaUrumqi: return .zone1970
+                case .americaKentuckyLouisville: return .zone1970
+                case .americaVancouver: return .zone1970
+                case .asiaHebron: return .zone1970
+                case .americaIndianaVevay: return .zone1970
+                case .americaDanmarkshavn: return .zone1970
+                case .asiaNicosia: return .zone1970
+                case .americaSwiftCurrent: return .zone1970
+                case .asiaAnadyr: return .zone1970
+                case .asiaPontianak: return .zone1970
+                case .americaIndianaWinamac: return .zone1970
+                case .americaMonterrey: return .zone1970
+                case .europeBerlin: return .zone1970
+                case .pacificAuckland: return .now
+                case .americaDawson: return .zone1970
+                case .americaArgentinaCatamarca: return .zone1970
+                case .australiaBrisbane: return .now
+                case .americaBoise: return .zone1970
+                case .asiaKuching: return .zone1970
+                case .asiaAlmaty: return .zone1970
+                case .asiaDubai: return .now
+                case .asiaManila: return .now
+                case .americaGlaceBay: return .zone1970
+                case .americaMatamoros: return .zone1970
+                case .europeChisinau: return .now
+                case .asiaHovd: return .zone1970
+                case .europeIstanbul: return .now
+                case .asiaShanghai: return .now
+                case .africaCeuta: return .zone1970
+                case .asiaSakhalin: return .zone1970
+                case .americaBahia: return .zone1970
+                case .americaGooseBay: return .zone1970
+                case .americaKentuckyMonticello: return .zone1970
+                case .americaScoresbysund: return .zone1970
+                case .europeKirov: return .zone1970
+                case .americaIndianaVincennes: return .zone1970
+                case .asiaBangkok: return .now
+                case .americaArgentinaRioGallegos: return .zone1970
+                case .americaPuertoRico: return .zone1970
+                case .americaArgentinaJujuy: return .zone1970
+                case .australiaLindeman: return .zone1970
+                case .americaRecife: return .zone1970
+                case .europeSamara: return .zone1970
+                case .americaIndianaMarengo: return .zone1970
+                case .americaMaceio: return .zone1970
+                case .europeZurich: return .zone1970
+                case .asiaMagadan: return .zone1970
+                case .americaIndianaKnox: return .zone1970
+                case .pacificHonolulu: return .now
+                case .europeMadrid: return .zone1970
+                case .americaNorthDakotaNewSalem: return .zone1970
+                case .pacificTarawa: return .zone1970
+                case .americaIndianaIndianapolis: return .zone1970
+                case .africaAlgiers: return .now
+                case .asiaKrasnoyarsk: return .zone1970
+                case .americaArgentinaSanLuis: return .zone1970
+                case .americaDetroit: return .zone1970
+                case .americaMoncton: return .zone1970
+                case .pacificNorfolk: return .now
+                case .pacificGalapagos: return .now
+                case .americaYakutat: return .zone1970
+                case .americaToronto: return .zone1970
+                case .americaPanama: return .zone1970
+                case .americaEirunepe: return .zone1970
+                case .americaRegina: return .zone1970
+                case .asiaBeirut: return .now
+                case .australiaMelbourne: return .zone1970
+                case .asiaKathmandu: return .now
+                case .asiaSeoul: return .now
+                case .asiaOmsk: return .zone1970
+                case .americaCiudadJuarez: return .zone1970
+                case .asiaFamagusta: return .zone1970
+                case .americaInuvik: return .zone1970
+                case .americaChihuahua: return .zone1970
+                case .pacificPagoPago: return .now
+                case .asiaBarnaul: return .zone1970
+                case .asiaUlaanbaatar: return .zone1970
+                case .americaMiquelon: return .now
+                case .antarcticaDavis: return .zone1970
+                case .americaMetlakatla: return .zone1970
+                case .africaJohannesburg: return .now
+                case .australiaHobart: return .zone1970
+                case .europeSaratov: return .zone1970
+                case .europeVolgograd: return .zone1970
+                case .asiaHongKong: return .now
+                case .americaArgentinaLaRioja: return .zone1970
+                case .americaArgentinaTucuman: return .zone1970
+                case .americaFortNelson: return .zone1970
+                case .africaAbidjan: return .now
+                case .americaNewYork: return .now
+                case .africaMaputo: return .now
+                case .australiaAdelaide: return .now
+                case .americaMexicoCity: return .now
+                case .asiaVladivostok: return .now
+                case .asiaQyzylorda: return .zone1970
+                case .americaArgentinaMendoza: return .zone1970
+                case .asiaTomsk: return .zone1970
+                case .asiaJakarta: return .now
         }
     }
 }
